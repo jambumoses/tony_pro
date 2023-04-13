@@ -1,12 +1,14 @@
 /* imports */
-@import url("./heroSection.css");
 @import url("./header.css");
+@import url("./heroSection.css");
+@import url("./featuredProductsListing.css");
 
 * {
   font-family: poppins, sans-serif;
   font-size: 15px;
   margin: 0px;
   padding: 0px;
+  color: rgb(46, 44, 44);
 }
 
 html {

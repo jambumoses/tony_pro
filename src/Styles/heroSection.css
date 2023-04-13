@@ -59,6 +59,12 @@
   font-weight: 500;
 }
 
+
+.categories-nav-item-title-heading{
+  color: black;
+  font-size: 20px;
+}
+
 .categories-nav-item-ico {
   font-size: 14px;
   font-weight: 500;

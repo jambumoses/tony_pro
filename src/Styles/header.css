@@ -19,6 +19,11 @@ text-transform: capitalize;
 font-weight: 500;
 }
 
+.nav-bar-note b{
+    color: lightgray;
+    margin: 5px;
+}
+
 .nav-bar-right{
     display: flex;
 }

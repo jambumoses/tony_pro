@@ -17,9 +17,9 @@ export default function HeroSection() {
         <section className="hero-banner-section">
           <div className="categories-nav-section">
             <span className="categories-nav-item">
-              <span className="categories-nav-item-title">computers</span>
+              <span className="categories-nav-item-title categories-nav-item-title-heading">categories</span>
               <span className="categories-nav-item-ico">
-                <i className="fa fa-angle-right"></i>
+                {/* <i className="fa fa-angle-right"></i> */}
               </span>
             </span>
 
