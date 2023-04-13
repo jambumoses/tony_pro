@@ -1,0 +1,47 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    padding: 2%;
+}
+
+.nav-bar-note{
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 100%;
+font-size: 13px;
+color: grey;
+text-transform: capitalize;
+font-weight: 500;
+}
+
+.nav-bar-right{
+    display: flex;
+}
+
+.nav-bar-right span{
+    margin-right: 10px;
+}
+
+.nav-bar-right span .a{
+    font-size: 12px;
+    color: grey;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: 0.3s linear;
+}
+
+.nav-bar-right span .a:hover{
+    color: lightgray;
+    transition: 0.3s linear;
+}
+
+.nav-bar-right span .active{
+    color: lightgray;
+}

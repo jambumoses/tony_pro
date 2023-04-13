@@ -1,0 +1,33 @@
+/* imports */
+@import url("./heroSection.css");
+@import url("./header.css");
+
+* {
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+}
+
+form {
+  display: inline;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+}
