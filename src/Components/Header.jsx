@@ -9,10 +9,10 @@ export default function Header() {
       </div>
 
       <div className="nav-bar-right">
-        <span><Link to="" className="a active" href="">my account</Link></span>
-        <span><Link to="" className="a" href="">login</Link></span>
-        <span><Link to="" className="a" href="">home</Link></span>
-        <span><Link to="" className="a" href="">contact</Link></span>
+        <span><Link to="" className="a active" href="">home</Link></span>
+        <span><Link to="/shop" className="a" href="">our-shop</Link></span>
+        <span><Link to="/about" className="a" href="">about</Link></span>
+        <span><Link to="/contact" className="a" href="">contact</Link></span>
       </div>
     </nav>
   );

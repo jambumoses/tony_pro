@@ -111,8 +111,8 @@ export default function FeaturedProductsListing() {
             </span>
           </div>
 
-                    {/* item */}
-                    <div className="featured-product">
+          {/* item */}
+          <div className="featured-product">
             <span className="featured-product-thumbnail">
               <img src="" alt="" />
             </span>
@@ -134,9 +134,8 @@ export default function FeaturedProductsListing() {
             </span>
           </div>
 
-
-                    {/* item */}
-                    <div className="featured-product">
+          {/* item */}
+          <div className="featured-product">
             <span className="featured-product-thumbnail">
               <img src="" alt="" />
             </span>

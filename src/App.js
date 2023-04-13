@@ -12,6 +12,7 @@ import Contact from "./Pages/Contact";
 
 /* styles */
 import "./Styles/main.css";
+import Shop from "./Pages/Shop";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/home" component={Home} />
           <Route path="/index" component={Home} />
 
+          <Route path="/shop" component={Shop} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
 

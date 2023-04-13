@@ -1,0 +1,139 @@
+.wholeShopListing-section{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+
+.wholeShopListing-section main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.wholeShop-product{
+    width: 25%;
+    /* width: 250px; */
+    height: 340px;
+    margin: 20px;
+    background-color: white;
+}
+
+.wholeShop-product-thumbnail{
+    display: block;
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.wholeShop-product-thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wholeShop-product-title{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.wholeShop-product-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: grey;
+}
+
+.wholeShop-product-rate-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.wholeShop-product-rating{
+    display: block;
+}
+
+.wholeShop-product-rating i{
+    font-size: 10px;
+    color: orange;
+}
+
+.wholeShop-product-price{
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.wholeShopListing-section aside{
+    width: 20%;
+    background-color: transparent;
+}
+
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.filter-container header{
+    display: block;
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    text-align: left;
+}
+
+.filter-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filter-list span{
+    display: block;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+.filter-list span input{
+    margin-right: 10px;
+}
+
+.filter-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-buttons button{
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 13px;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-family: poppins, sans-serif;
+}

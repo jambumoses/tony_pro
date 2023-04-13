@@ -1,8 +1,8 @@
 /* imports */
 @import url("./header.css");
 @import url("./heroSection.css");
+@import url("./wholeShopListing.css");
 @import url("./featuredProductsListing.css");
-
 * {
   font-family: poppins, sans-serif;
   font-size: 15px;
