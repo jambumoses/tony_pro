@@ -5,7 +5,9 @@
     align-items: center;
     background-color: black;
     height: 60px;
+    /* width: 100%; */
     padding: 2%;
+    /* position: fixed; */
 }
 
 .nav-bar-note{

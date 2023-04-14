@@ -94,10 +94,11 @@
 .filter-container header{
     display: block;
     font-family: poppins, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     color: grey;
     text-align: left;
+    text-transform: capitalize;
 }
 
 .filter-list{

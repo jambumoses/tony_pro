@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 90vh;
-  background-color: wheat;
+  background-color: rgba(211, 211, 211, 0.151);
 }
 
 .hero-nav-section {
@@ -13,6 +13,7 @@
   justify-content: space-between;
   padding: 0px 2%;
   padding-top: 2%;
+  /* padding-top: 70px; */
 }
 
 .hero-nav-logo {
