@@ -14,7 +14,7 @@ function WholeShopItem({ data }) {
         <span className="wholeShop-product-details">
           {data.description.slice(0, 25)}
           <br />
-          {data.description.slice(25).slice(0,25)}
+          {data.description.slice(25).slice(0, 25)}
         </span>
         <span className="wholeShop-product-rate-section">
           <span className="wholeShop-product-rating">
@@ -32,7 +32,6 @@ function WholeShopItem({ data }) {
 }
 
 export default function WholeShopListing() {
-
   const wholeProducts = useSelector((state) => state.constant.data.products);
 
   return (

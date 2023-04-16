@@ -1,6 +1,35 @@
 import React from "react";
 
-export default function FeaturedProductsListing() {
+function FeaturedProductItem({ data }) {
+  return (
+    <>
+      {/* item */}
+      <div className="featured-product">
+        <span className="featured-product-thumbnail">
+          <img src="" alt="" />
+        </span>
+        <span className="featured-product-title">Acer Aspire R3</span>
+        <span className="featured-product-details">
+          premuim quad core 4th Gen
+          <br />
+          14 GB/500 GB HDD/Win00
+        </span>
+        <span className="featured-product-rate-section">
+          <span className="featured-product-rating">
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+          </span>
+          <span className="featured-product-price">$ 3,990</span>
+        </span>
+      </div>
+    </>
+  );
+}
+
+export default function FeaturedProductsListing({ products }) {
   return (
     <>
       <section className="featured-product-listing-section">
@@ -19,143 +48,9 @@ export default function FeaturedProductsListing() {
         </div>
 
         <div className="featured-product-listing-container">
-          {/* item */}
-          <div className="featured-product">
-            <span className="featured-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="featured-product-title">Acer Aspire R3</span>
-            <span className="featured-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="featured-product-rate-section">
-              <span className="featured-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="featured-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="featured-product">
-            <span className="featured-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="featured-product-title">Acer Aspire R3</span>
-            <span className="featured-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="featured-product-rate-section">
-              <span className="featured-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="featured-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="featured-product">
-            <span className="featured-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="featured-product-title">Acer Aspire R3</span>
-            <span className="featured-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="featured-product-rate-section">
-              <span className="featured-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="featured-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="featured-product">
-            <span className="featured-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="featured-product-title">Acer Aspire R3</span>
-            <span className="featured-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="featured-product-rate-section">
-              <span className="featured-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="featured-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="featured-product">
-            <span className="featured-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="featured-product-title">Acer Aspire R3</span>
-            <span className="featured-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="featured-product-rate-section">
-              <span className="featured-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="featured-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="featured-product">
-            <span className="featured-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="featured-product-title">Acer Aspire R3</span>
-            <span className="featured-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="featured-product-rate-section">
-              <span className="featured-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="featured-product-price">$ 3,990</span>
-            </span>
-          </div>
+          {products.map(function (item) {
+            return <FeaturedProductItem data={products} />;
+          })}
         </div>
       </section>
     </>

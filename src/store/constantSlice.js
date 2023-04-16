@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import productsModel from "../Assets/model/products.json";
 
 const constantSlice = createSlice({
   name: "constant",
@@ -8,20 +9,7 @@ const constantSlice = createSlice({
     currentPageTitle: "",
     currentPage: "",
     data: {
-      products: [
-        {
-          _id: "124",
-          title: "Acer Aspire R3",
-          category: "",
-          description: "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 ",
-          assets: {
-            url: "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png",
-            images: [],
-          },
-          rating: 5,
-          price: "$ 2,050",
-        },
-      ],
+      products: productsModel,
     },
   },
   reducers: {
