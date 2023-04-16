@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import FooterBrandsListing from "./FooterBrandsListing";
 
 export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <>
+      <FooterBrandsListing />
+      <div>Footer</div>
+    </>
+  );
 }

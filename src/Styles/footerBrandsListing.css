@@ -1,0 +1,42 @@
+.footerBrandslisting-section {
+  padding: 5% 10%;
+  border-top: 1px solid rgba(192, 192, 192, 0.493);
+  border-bottom: 1px solid rgba(192, 192, 192, 0.493);
+}
+
+.footerBrandslisting-section h1 {
+    color: rgba(0, 0, 0, 0.699);
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.footerBrandslisting-section ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footerBrandslisting-section ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.footerBrandslisting-section ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: grey;
+}
+
+.footerBrandslisting-section ul li a:hover {
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.footerBrandslisting-section ul li::after {
+  content: " /";
+  font-size: 12px;
+}
