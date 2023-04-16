@@ -1,0 +1,10 @@
+.BrandsBanner-section{
+    height: 400px;
+    padding: 3% 3%;
+}
+
+.BrandsBanner-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
