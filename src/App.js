@@ -13,8 +13,25 @@ import Contact from "./Pages/Contact";
 /* styles */
 import "./Styles/main.css";
 import Shop from "./Pages/Shop";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import $ from "jquery";
 
 function App() {
+  const dispatch = useDispatch();
+
+  const browserIcons = useSelector((state) => state.constant.logo.browserTab);
+  //const currentPage = useSelector((state) => state.constant.currentPage);
+  const PageTitles = useSelector((state) => state.constant.currentPageTitle);
+
+  useEffect(() => {
+    /* Browser icons */
+    $("#browser-icons").attr("href", browserIcons);
+
+    // updating page titles
+    $("#app-title").text(PageTitles);
+  });
+
   return (
     <>
       <Router>

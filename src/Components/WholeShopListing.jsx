@@ -1,6 +1,40 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { constantActions } from "../store/constantSlice";
+
+function WholeShopItem({ data }) {
+  return (
+    <>
+      {/* item */}
+      <div className="wholeShop-product">
+        <span className="wholeShop-product-thumbnail">
+          <img src={require(`../Assets/products/${data.assets.url}`)} alt="" />
+        </span>
+        <span className="wholeShop-product-title">{data.title}</span>
+        <span className="wholeShop-product-details">
+          {data.description.slice(0, 25)}
+          <br />
+          {data.description.slice(25).slice(0,25)}
+        </span>
+        <span className="wholeShop-product-rate-section">
+          <span className="wholeShop-product-rating">
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+          </span>
+          <span className="wholeShop-product-price">{data.price}</span>
+        </span>
+      </div>
+    </>
+  );
+}
 
 export default function WholeShopListing() {
+
+  const wholeProducts = useSelector((state) => state.constant.data.products);
+
   return (
     <>
       <section className="hero-nav-section">
@@ -23,283 +57,12 @@ export default function WholeShopListing() {
           </span>
         </div>
       </section>
+
       <section className="wholeShopListing-section">
         <main>
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
-
-          {/* item */}
-          <div className="wholeShop-product">
-            <span className="wholeShop-product-thumbnail">
-              <img src="" alt="" />
-            </span>
-            <span className="wholeShop-product-title">Acer Aspire R3</span>
-            <span className="wholeShop-product-details">
-              premuim quad core 4th Gen
-              <br />
-              14 GB/500 GB HDD/Win00
-            </span>
-            <span className="wholeShop-product-rate-section">
-              <span className="wholeShop-product-rating">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-              </span>
-              <span className="wholeShop-product-price">$ 3,990</span>
-            </span>
-          </div>
+          {wholeProducts.map(function (item) {
+            return <WholeShopItem key={item._id} data={item} />;
+          })}
         </main>
 
         <aside>
@@ -481,6 +244,10 @@ export default function WholeShopListing() {
           </section>
         </aside>
       </section>
+
+      <div className="see-more-btn">
+        <button type="button">see more</button>
+      </div>
     </>
   );
 }
