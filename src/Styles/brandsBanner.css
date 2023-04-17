@@ -1,6 +1,7 @@
 .BrandsBanner-section{
-    height: 400px;
-    padding: 3% 3%;
+    height: 550px;
+    padding: 3% 0px;
+    padding-bottom: 0px;
 }
 
 .BrandsBanner-section img{

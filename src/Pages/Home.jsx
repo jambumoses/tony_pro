@@ -14,6 +14,7 @@ export default function Home() {
   dispatch(constantActions.setCurrentPage("Home"));
 
   const Products = useSelector((state) => state.constant.data.products);
+  const computersBanner = useSelector((state) => state.constant.data.banners.computers);
 
   return (
     <>
@@ -21,7 +22,7 @@ export default function Home() {
       <FeaturedProductsListing featuredTitle="top trends" products={Products}/>
       <FeaturedProductsListing featuredTitle="computers" products={Products}/>
       <FeaturedProductsListing featuredTitle="printers" products={Products}/>
-      <BrandsBanner />
+      <BrandsBanner image={computersBanner} />
     </>
   );
 }

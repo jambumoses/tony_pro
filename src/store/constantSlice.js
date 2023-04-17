@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import productsModel from "../Assets/model/products.json";
+import bannersModel from "../Assets/model/banners.json";
 
 const constantSlice = createSlice({
   name: "constant",
@@ -9,6 +10,7 @@ const constantSlice = createSlice({
     currentPageTitle: "",
     currentPage: "",
     data: {
+      banners: bannersModel,
       products: productsModel,
     },
   },
