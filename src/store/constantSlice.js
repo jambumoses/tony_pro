@@ -5,7 +5,7 @@ import bannersModel from "../Assets/model/banners.json";
 const constantSlice = createSlice({
   name: "constant",
   initialState: {
-    logo: { nav: "", browserTab: "" },
+    logo: { nav: "nav.png", browserTab: "" },
     companyTitle: "jumbo.com",
     currentPageTitle: "",
     currentPage: "",

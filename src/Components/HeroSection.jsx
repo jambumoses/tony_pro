@@ -1,16 +1,30 @@
 import React from "react";
+import {useSelector} from "react-redux";
+import $ from "jquery";
+
+function showSearchInput(){
+  $("#search-input").slideToggle("slow");
+}
 
 export default function HeroSection() {
+
+  const logo = useSelector(state => state.constant.logo.nav);
+
   return (
     <>
       <div className="hero-section">
         <section className="hero-nav-section">
-            <div className="hero-nav-logo"> <img src="" alt="" /></div>
+            <div className="hero-nav-logo"> <img src={require(`../Assets/logos/${logo}`)} alt="" /></div>
             <div>
-                <span className="hero-nav-right-item"><i className="fa fa-search"></i></span>
+                <span className="hero-nav-right-item">
+                  <form>
+                    <input id="search-input" type="search" name="search" placeholder="Search For A Category" />
+                    <button onClick={()=>showSearchInput()} type="button"><i className="fa fa-search"></i></button>
+                  </form>
+                </span>
                 <span className="hero-nav-right-item"><i className="fa fa-user"></i></span>
                 <span className="hero-nav-right-item"><i className="fa fa-heart"></i></span>
-                <span className="hero-nav-right-item"><i className="fa fa-shopping-cart"></i></span>
+                <span className="hero-nav-right-item"><i className="fa fa-shopping-cart"></i> <sup className="shopping-cart-count">0</sup></span>
             </div>
         </section>
 

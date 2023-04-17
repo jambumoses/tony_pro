@@ -51,7 +51,7 @@ export default function FeaturedProductsListing({ featuredTitle, products }) {
 
         <div className="featured-product-listing-container">
           {products.map(function (item) {
-            return <FeaturedProductItem data={item} />;
+            return <FeaturedProductItem key={item._id} data={item} />;
           })}
         </div>
       </section>

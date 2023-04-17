@@ -22,21 +22,49 @@
   align-items: center;
   justify-content: center;
   width: 150px;
-  height: 50px;
+  height: 70px;
 }
 
 .hero-nav-right-item{
     margin-right: 15px;
 }
 
+.hero-nav-right-item input{
+  display: none;
+  margin-right: 10px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(211, 211, 211, 0.616);
+  color: grey;
+  font-weight: 500;
+  padding: 0px 20px;
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+}
+
+.hero-nav-right-item button{
+  border: none;
+  background-color: transparent;
+}
+
+.hero-nav-right-item button i{
+  font-size: 16px;
+}
+
 .hero-nav-right-item i{
     font-size: 16px;
+}
+
+.shopping-cart-count{
+ font-size: 13px;
+ color: orange;
 }
 
 .hero-nav-logo img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .hero-banner-section {

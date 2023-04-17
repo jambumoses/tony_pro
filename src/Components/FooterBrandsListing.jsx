@@ -11,7 +11,7 @@ export default function FooterBrandsListing() {
         <ul>
           {Products.map(function (item) {
             return (
-              <li>
+              <li key={item._id}>
                 <a href="">{item.category}</a>
               </li>
             );
