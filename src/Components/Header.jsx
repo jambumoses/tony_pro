@@ -9,13 +9,15 @@ export default function Header() {
 
   return (
     <nav className="nav-bar">
-      <div className="nav-bar-note" style={{color:"red"}}>
+      <div className="nav-bar-note">
       <Typewriter
-                        loop={0}
-                        typeSpeed={40}
-                        deleteSpeed={10}
-                        delaySpeed={5000}
-                        words={["get 10% off the promo off ts sections "]}/>
+          loop={0}
+          cursor
+          cursorStyle="👈"
+          typeSpeed={40}
+          deleteSpeed={10}
+          delaySpeed={4000}
+          words={["get 10% off the promo off ts sections "]}/>
         <b>shop now!  </b>
       </div>
 
