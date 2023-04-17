@@ -4,11 +4,20 @@ import { constantActions } from "../store/constantSlice";
 import LogoNavComponent from "./LogoNavComponent";
 
 function WholeShopItem({ data }) {
+  const dispatch = useDispatch();
+
+  function updateDetailsPage(item) {
+    dispatch(constantActions.updateDetailsPage(item));
+  }
+
   return (
     <>
       {/* item */}
       <div className="wholeShop-product">
-        <span className="wholeShop-product-thumbnail">
+        <span
+          className="wholeShop-product-thumbnail"
+          onClick={() => updateDetailsPage(data)}
+        >
           <img src={require(`../Assets/products/${data.assets.url}`)} alt="" />
         </span>
         <span className="wholeShop-product-title">{data.title}</span>
@@ -37,8 +46,8 @@ export default function WholeShopListing() {
 
   return (
     <>
-    {/* <LogoNavComponent/> */}
-{/*       <section className="hero-nav-section">
+      {/* <LogoNavComponent/> */}
+      {/*       <section className="hero-nav-section">
         <div className="hero-nav-logo">
           {" "}
           <img src="" alt="" />

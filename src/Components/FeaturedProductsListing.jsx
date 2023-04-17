@@ -1,11 +1,25 @@
 import React from "react";
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { useDispatch, useSelector } from "react-redux";
+import { constantActions } from "../store/constantSlice";
+
 export function FeaturedProductItem({ data }) {
+  const dispatch = useDispatch();
+  function updateDetailsPage(item) {
+    dispatch(constantActions.updateDetailsPage(item));
+  }
+
   return (
     <>
       {/* item */}
       <div className="featured-product">
-        <span className="featured-product-thumbnail">
+        <span
+          className="featured-product-thumbnail"
+          onClick={() => updateDetailsPage(data)}
+        >
           <img src={require(`../Assets/products/${data.assets.url}`)} alt="" />
         </span>
         <span className="featured-product-title">{data.title}</span>
@@ -30,6 +44,14 @@ export function FeaturedProductItem({ data }) {
 }
 
 export default function FeaturedProductsListing({ featuredTitle, products }) {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+  };
+
   return (
     <>
       <section className="featured-product-listing-section">
@@ -53,6 +75,8 @@ export default function FeaturedProductsListing({ featuredTitle, products }) {
           {products.map(function (item) {
             return <FeaturedProductItem key={item._id} data={item} />;
           })}
+
+          {/* <Slider {...settings}></Slider> */}
         </div>
       </section>
     </>

@@ -14,6 +14,7 @@ const constantSlice = createSlice({
       banners: bannersModel,
       categories: categoriesModel,
       products: productsModel,
+      details_page: "",
     },
   },
   reducers: {
@@ -25,6 +26,9 @@ const constantSlice = createSlice({
     },
     setCurrentPage(state, action) {
       state.currentPage = action.payload;
+    },
+    updateDetailsPage(state, action) {
+      state.data.details_page = action.payload;
     },
   },
 });
