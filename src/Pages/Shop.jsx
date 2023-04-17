@@ -9,15 +9,18 @@ export default function Shop() {
   const dispatch = useDispatch();
   const companyName = useSelector(state=>state.constant.companyTitle)
 
-  dispatch(constantActions.updatePageTitles(companyName+" . "+"shop"));
-  dispatch(constantActions.setCurrentPage("shop"));
+  dispatch(constantActions.updatePageTitles(companyName+" . "+"Shop"));
+  dispatch(constantActions.setCurrentPage("Shop"));
+
+  const Products = useSelector((state) => state.constant.data.products);
+
 
   return (
     <>
       <WholeShopListing />
       <hr />
       {/* related products   */}
-      <FeaturedProductsListing />
+      <FeaturedProductsListing featuredTitle="related products" products={Products}/>
     </>
   );
 }

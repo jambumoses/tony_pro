@@ -13,12 +13,14 @@ export default function Home() {
   dispatch(constantActions.updatePageTitles(companyName));
   dispatch(constantActions.setCurrentPage("Home"));
 
+  const Products = useSelector((state) => state.constant.data.products);
+
   return (
     <>
       <HeroSection />
-      <FeaturedProductsListing />
-      <FeaturedProductsListing />
-      <FeaturedProductsListing />
+      <FeaturedProductsListing featuredTitle="top trends" products={Products}/>
+      <FeaturedProductsListing featuredTitle="computers" products={Products}/>
+      <FeaturedProductsListing featuredTitle="printers" products={Products}/>
       <BrandsBanner />
     </>
   );

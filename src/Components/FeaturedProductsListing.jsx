@@ -1,18 +1,18 @@
 import React from "react";
 
-function FeaturedProductItem({ data }) {
+export function FeaturedProductItem({ data }) {
   return (
     <>
       {/* item */}
       <div className="featured-product">
         <span className="featured-product-thumbnail">
-          <img src="" alt="" />
+          <img src={require(`../Assets/products/${data.assets.url}`)} alt="" />
         </span>
-        <span className="featured-product-title">Acer Aspire R3</span>
+        <span className="featured-product-title">{data.title}</span>
         <span className="featured-product-details">
-          premuim quad core 4th Gen
+          {data.description.slice(0, 25)}
           <br />
-          14 GB/500 GB HDD/Win00
+          {data.description.slice(25).slice(0, 25)}
         </span>
         <span className="featured-product-rate-section">
           <span className="featured-product-rating">
@@ -22,21 +22,23 @@ function FeaturedProductItem({ data }) {
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
           </span>
-          <span className="featured-product-price">$ 3,990</span>
+          <span className="featured-product-price">{data.price}</span>
         </span>
       </div>
     </>
   );
 }
 
-export default function FeaturedProductsListing({ products }) {
+export default function FeaturedProductsListing({ featuredTitle, products }) {
   return (
     <>
       <section className="featured-product-listing-section">
         <div className="featured-product-listing-head-section">
           <span className="featured-product-listing-head-title">
-            popular products
+            {featuredTitle}
           </span>
+
+          {/*  scroll arrows */}
           <span>
             <span className="featured-product-listing-scroll-button">
               <i className="fa fa-angle-left"></i>
@@ -49,7 +51,7 @@ export default function FeaturedProductsListing({ products }) {
 
         <div className="featured-product-listing-container">
           {products.map(function (item) {
-            return <FeaturedProductItem data={products} />;
+            return <FeaturedProductItem data={item} />;
           })}
         </div>
       </section>

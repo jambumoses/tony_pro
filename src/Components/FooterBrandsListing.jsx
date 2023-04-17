@@ -1,33 +1,23 @@
-import React from 'react'
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function FooterBrandsListing() {
+  const Products = useSelector((state) => state.constant.data.products);
+
   return (
     <>
-        <section className='footerBrandslisting-section'>
-            <h1>categories</h1>
-            <ul>
-                <li><a href="">printers</a></li>
-                <li><a href="">tablets</a></li>
-                <li><a href="">phones</a></li>
-                <li><a href="">electronics</a></li>
-                <li><a href="">computers</a></li>
-                <li><a href="">printers</a></li>
-                <li><a href="">tablets</a></li>
-                <li><a href="">phones</a></li>
-                <li><a href="">electronics</a></li>
-                <li><a href="">computers</a></li>
-                <li><a href="">printers</a></li>
-                <li><a href="">tablets</a></li>
-                <li><a href="">phones</a></li>
-                <li><a href="">electronics</a></li>
-                <li><a href="">computers</a></li>
-                <li><a href="">printers</a></li>
-                <li><a href="">tablets</a></li>
-                <li><a href="">phones</a></li>
-                <li><a href="">electronics</a></li>
-                <li><a href="">computers</a></li>
-            </ul>
-        </section>
+      <section className="footerBrandslisting-section">
+        <h1>categories</h1>
+        <ul>
+          {Products.map(function (item) {
+            return (
+              <li>
+                <a href="">{item.category}</a>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
     </>
-  )
+  );
 }
