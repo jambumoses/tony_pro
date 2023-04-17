@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { constantActions } from "../store/constantSlice";
+import LogoNavComponent from "./LogoNavComponent";
 
 function WholeShopItem({ data }) {
   return (
@@ -36,7 +37,8 @@ export default function WholeShopListing() {
 
   return (
     <>
-      <section className="hero-nav-section">
+    {/* <LogoNavComponent/> */}
+{/*       <section className="hero-nav-section">
         <div className="hero-nav-logo">
           {" "}
           <img src="" alt="" />
@@ -55,7 +57,7 @@ export default function WholeShopListing() {
             <i className="fa fa-shopping-cart"></i>
           </span>
         </div>
-      </section>
+      </section> */}
 
       <section className="wholeShopListing-section">
         <main>

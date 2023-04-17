@@ -1,4 +1,37 @@
 {
-  "home": [{ "_id": 1, "url": "View-All-Devices_1040x585.jpg" }],
+  "home": [
+    { "_id": 1, "url": "View-All-Devices_1040x585.jpg" },
+    { "_id": 2, "url": "ET-8550_headon-paper-ink-set-PC-EditorsChoice_690x460.jpg" },
+    { "_id": 3, "url": "960x0.jpg" },
+    { "_id": 4, "url": "Work Smarter Consolidate Your Printer - Twitter Post.webp" },
+    { "_id": 5, "url": "Best-All-in-One-Color-Laser-Printers-for-Small-Businesses.webp" },
+    { "_id": 3, "url": "1df13-Laser-Printers-pantum.jpg" }
+  ],
+  "note_offers":[
+    {
+      "_id": "1",
+      "icon": "fa fa-truck-fast",
+      "title":"money back guarante",
+      "subtitle":"100% money back guarante"
+    },
+    {
+      "_id": "1",
+      "icon": "fa fa-shopping-cart",
+      "title":"money back guarante",
+      "subtitle":"100% money back guarante"
+    },
+    {
+      "_id": "1",
+      "icon": "fa fa-handshake",
+      "title":"money back guarante",
+      "subtitle":"100% money back guarante"
+    },
+    {
+      "_id": "1",
+      "icon": "fa fa-gifts",
+      "title":"money back guarante",
+      "subtitle":"100% money back guarante"
+    }
+  ],
   "computers": "View-All-Devices_1040x585.jpg"
 }

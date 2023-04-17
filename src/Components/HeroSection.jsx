@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import $ from "jquery";
-
-function showSearchInput() {
-  $("#search-input").slideToggle("slow");
-}
+import "bootstrap/dist/css/bootstrap.min.css";
+import Carousel from "react-bootstrap/Carousel";
+import LogoNavComponent from "./LogoNavComponent";
 
 function DropDownComponent({ subcategories }) {
   return (
@@ -26,52 +25,24 @@ function DropDownComponent({ subcategories }) {
 }
 
 export default function HeroSection() {
-
-  function showDropDown(id,subcategories) {
-    $("#dropdown-subcategories").toggle(()=>{
-      $("#icon-"+id).toggleClass("fa fa-angle-right","fa fa-angle-left");
+  function showDropDown(id, subcategories) {
+    $("#dropdown-subcategories").toggle(() => {
+      $("#icon-" + id).toggleClass("fa fa-angle-right", "fa fa-angle-left");
     });
-    setSubcategoriesData(subcategories)
+    setSubcategoriesData(subcategories);
   }
 
   const [subcategoriesData, setSubcategoriesData] = useState([]);
-  const logo = useSelector((state) => state.constant.logo.nav);
+  const heroBanners = useSelector((state) => state.constant.data.banners.home);
+  const note_offers = useSelector(
+    (state) => state.constant.data.banners.note_offers
+  );
   const categories = useSelector((state) => state.constant.data.categories);
 
   return (
     <>
       <div className="hero-section">
-        <section className="hero-nav-section">
-          <div className="hero-nav-logo">
-            {" "}
-            <img src={require(`../Assets/logos/${logo}`)} alt="" />
-          </div>
-          <div>
-            <span className="hero-nav-right-item">
-              <form>
-                <input
-                  id="search-input"
-                  type="search"
-                  name="search"
-                  placeholder="Search For A Category"
-                />
-                <button onClick={() => showSearchInput()} type="button">
-                  <i className="fa fa-search"></i>
-                </button>
-              </form>
-            </span>
-            <span className="hero-nav-right-item">
-              <i className="fa fa-user"></i>
-            </span>
-            <span className="hero-nav-right-item">
-              <i className="fa fa-heart"></i>
-            </span>
-            <span className="hero-nav-right-item">
-              <i className="fa fa-shopping-cart"></i>{" "}
-              <sup className="shopping-cart-count">0</sup>
-            </span>
-          </div>
-        </section>
+      <LogoNavComponent/>
 
         {/* dropdowns section*/}
         {subcategoriesData && (
@@ -94,14 +65,19 @@ export default function HeroSection() {
 
             {categories.map(function (item) {
               return (
-                <span onClick={() => showDropDown(item._id,item.subcategories)} className="categories-nav-item" key={item._id}>
+                <span
+                  onClick={() => showDropDown(item._id, item.subcategories)}
+                  className="categories-nav-item"
+                  key={item._id}
+                >
                   <span className="categories-nav-item-title">
                     {item.category}
                   </span>
-                  <span
-                    className="categories-nav-item-ico"
-                  >
-                    <i id={"dropdown-categories-icon "+"icon-"+item._id} className="fa fa-angle-right"></i>
+                  <span className="categories-nav-item-ico">
+                    <i
+                      id={"dropdown-categories-icon " + "icon-" + item._id}
+                      className="fa fa-angle-right"
+                    ></i>
                   </span>
                 </span>
               );
@@ -110,66 +86,66 @@ export default function HeroSection() {
 
           {/* carousel */}
           <div className="corusel-section">
-            <img src="" alt="" />
+            <Carousel
+              prevIcon={
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-prev-icon"
+                  style={{ fontSize: "10px" }}
+                />
+              }
+              nextIcon={
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-next-icon"
+                />
+              }
+              interval={5000}
+              indicators={false}
+              pause={false}
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                width: "100%",
+                height: "100%",
+                padding: "0px",
+              }}
+            >
+              {heroBanners.map(function (item) {
+                return (
+                  <Carousel.Item key={item._id}>
+                    <div className="Carousel-item">
+                      <img
+                        className="Carousel-banner"
+                        src={require(`../Assets/banners/${item.url}`)}
+                        alt=""
+                      />
+                    </div>
+                  </Carousel.Item>
+                );
+              })}
+            </Carousel>
           </div>
         </section>
 
         <section className="offers-nav-section">
-          <div className="offers-nav-item">
-            <span className="offers-nav-item-icon">
-              <i className="fa fa-shopping-cart"></i>
-            </span>
-            <span className="offers-nav-item-details">
-              <span className="offers-nav-item-details-title">
-                money back quarante
-              </span>
-              <span className="offers-nav-item-details-subtitle">
-                100% money back quarante
-              </span>
-            </span>
-          </div>
-
-          <div className="offers-nav-item">
-            <span className="offers-nav-item-icon">
-              <i className="fa fa-shopping-cart"></i>
-            </span>
-            <span className="offers-nav-item-details">
-              <span className="offers-nav-item-details-title">
-                money back quarante
-              </span>
-              <span className="offers-nav-item-details-subtitle">
-                100% money back quarante
-              </span>
-            </span>
-          </div>
-
-          <div className="offers-nav-item">
-            <span className="offers-nav-item-icon">
-              <i className="fa fa-shopping-cart"></i>
-            </span>
-            <span className="offers-nav-item-details">
-              <span className="offers-nav-item-details-title">
-                money back quarante
-              </span>
-              <span className="offers-nav-item-details-subtitle">
-                100% money back quarante
-              </span>
-            </span>
-          </div>
-
-          <div className="offers-nav-item">
-            <span className="offers-nav-item-icon">
-              <i className="fa fa-shopping-cart"></i>
-            </span>
-            <span className="offers-nav-item-details">
-              <span className="offers-nav-item-details-title">
-                money back quarante
-              </span>
-              <span className="offers-nav-item-details-subtitle">
-                100% money back quarante
-              </span>
-            </span>
-          </div>
+          {note_offers.map(function (item) {
+            return (
+              <div className="offers-nav-item">
+                <span className="offers-nav-item-icon">
+                  <i className={item.icon}></i>
+                </span>
+                <span className="offers-nav-item-details">
+                  <span className="offers-nav-item-details-title">
+                    {item.title}
+                  </span>
+                  <span className="offers-nav-item-details-subtitle">
+                    {item.subtitle}
+                  </span>
+                </span>
+              </div>
+            );
+          })}
         </section>
       </div>
     </>

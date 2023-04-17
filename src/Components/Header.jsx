@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {useSelector} from "react-redux";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Header() {
 
@@ -8,8 +9,14 @@ export default function Header() {
 
   return (
     <nav className="nav-bar">
-      <div className="nav-bar-note">
-        get 10% off the promo off ts sections - <b>shop now!</b>
+      <div className="nav-bar-note" style={{color:"red"}}>
+      <Typewriter
+                        loop={0}
+                        typeSpeed={40}
+                        deleteSpeed={10}
+                        delaySpeed={5000}
+                        words={["get 10% off the promo off ts sections "]}/>
+        <b>shop now!  </b>
       </div>
 
       <div className="nav-bar-right">
