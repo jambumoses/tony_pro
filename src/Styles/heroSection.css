@@ -25,11 +25,11 @@
   height: 70px;
 }
 
-.hero-nav-right-item{
-    margin-right: 15px;
+.hero-nav-right-item {
+  margin-right: 15px;
 }
 
-.hero-nav-right-item input{
+.hero-nav-right-item input {
   display: none;
   margin-right: 10px;
   height: 25px;
@@ -43,28 +43,61 @@
   font-size: 13px;
 }
 
-.hero-nav-right-item button{
+.hero-nav-right-item button {
   border: none;
   background-color: transparent;
 }
 
-.hero-nav-right-item button i{
+.hero-nav-right-item button i {
   font-size: 16px;
 }
 
-.hero-nav-right-item i{
-    font-size: 16px;
+.hero-nav-right-item i {
+  font-size: 16px;
 }
 
-.shopping-cart-count{
- font-size: 13px;
- color: orange;
+.shopping-cart-count {
+  font-size: 13px;
+  color: orange;
 }
 
 .hero-nav-logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* dropdown section */
+.hero-banner-categories-dropdown-section {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: absolute;
+  top: 230px;
+  left: 275px;
+  background-color: rgb(245, 245, 245);
+  /* min-height: 300px; */
+  max-height: 300px;
+  max-width: 40%;
+  padding: 20px;
+  text-align: left;
+}
+
+.hero-banner-categories-dropdown-section span {
+  display: inline-block;
+  margin: 5px 2px;
+  width: 110px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  transition: 0.3s linear;
+}
+
+.hero-banner-categories-dropdown-section span:hover {
+  color: grey;
+  transition: 0.3s linear;
 }
 
 .hero-banner-section {
@@ -76,7 +109,7 @@
 }
 
 .categories-nav-section {
-  background-color: transparent;
+  background-color: rgb(245, 245, 245);
   width: 20%;
   height: 100%;
 }
@@ -86,17 +119,20 @@
   font-family: poppins, sans-serif;
   font-size: 14px;
   font-weight: 500;
+  transition: 0.3s linear;
 }
 
-
-.categories-nav-item-title-heading{
-  color: black;
-  font-size: 20px;
+.categories-nav-item-title:hover {
+  color: grey;
+  transition: 0.3s linear;
 }
 
-.categories-nav-item-ico {
-  font-size: 14px;
-  font-weight: 500;
+.categories-nav-item-title-heading {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  color: grey;
 }
 
 .categories-nav-item {
@@ -105,6 +141,12 @@
   justify-content: space-between;
   padding: 10px 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+  cursor: pointer;
+}
+
+.categories-nav-item-ico {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .corusel-section {

@@ -1,0 +1,726 @@
+[
+  {
+    "_id": 1,
+    "category": "printers",
+    "image": "",
+    "subcategories": [
+      {
+        "_id": 1,
+        "name": "hp",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "super cop",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "copier",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "simeon",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "infinix lasor",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "joshhh",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "lasor",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "microsoft",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "hp",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "lasor",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "copier",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "hp",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "lasor",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "copier",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "category": "phones & tablets",
+    "image": "",
+    "subcategories": [
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "category": "other electronics",
+    "image": "",
+    "subcategories": [
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "category": "headsets",
+    "image": "",
+    "subcategories": [
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "category": "game consoles",
+    "image": "",
+    "subcategories": [
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "_id": 6,
+    "category": "flat screens",
+    "image": "",
+    "subcategories": [
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "_id": 7,
+    "category": "computer chargers",
+    "image": "",
+    "subcategories": [
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      },
+      {
+        "_id": 1,
+        "name": "samsung",
+        "image": ""
+      },
+      {
+        "_id": 2,
+        "name": "tecon",
+        "image": ""
+      },
+      {
+        "_id": 3,
+        "name": "infinix",
+        "image": ""
+      },
+      {
+        "_id": 4,
+        "name": "vivo",
+        "image": ""
+      },
+      {
+        "_id": 5,
+        "name": "nokia",
+        "image": ""
+      }
+    ]
+  }
+]

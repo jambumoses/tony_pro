@@ -1,4 +1,4 @@
 {
-  "home": ["View-All-Devices_1040x585.jpg"],
+  "home": [{ "_id": 1, "url": "View-All-Devices_1040x585.jpg" }],
   "computers": "View-All-Devices_1040x585.jpg"
 }
