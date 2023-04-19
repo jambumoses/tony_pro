@@ -16,6 +16,7 @@ import Shop from "./Pages/Shop";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import $ from "jquery";
+import { constantActions } from "./store/constantSlice";
 
 function App() {
   const dispatch = useDispatch();
@@ -30,7 +31,11 @@ function App() {
 
     // updating page titles
     $("#app-title").text(PageTitles);
+
+    /* updating cart count */
+    dispatch(constantActions.RefeshCartCount());
   });
+
 
   return (
     <>

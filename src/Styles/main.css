@@ -1,10 +1,13 @@
 /* imports */
 @import url("./header.css");
+@import url("./Footer.css");
 @import url("./heroSection.css");
 @import url("./brandsBanner.css");
 @import url("./wholeShopListing.css");
+@import url("./DetailsHeroSection.css");
 @import url("./footerBrandsListing.css");
 @import url("./featuredProductsListing.css");
+@import url("./DetailsInformationSection.css");
 
 /* body resetting */
 * {

@@ -8,7 +8,7 @@ function showSearchInput() {
 
 export default function LogoNavComponent() {
   const logo = useSelector((state) => state.constant.logo.nav);
-  const [cartNo, setCartNo] = useState(34);
+  const cartNo = useSelector((state) => state.constant.data.cart.count);
 
   return (
     <>

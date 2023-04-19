@@ -5,7 +5,9 @@ export default function Footer() {
   return (
     <>
       <FooterBrandsListing />
-      <div>Footer</div>
+      <div>
+        footer
+      </div>
     </>
   );
 }

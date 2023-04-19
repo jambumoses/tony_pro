@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import FeaturedProductsListing from "../Components/FeaturedProductsListing";
 import WholeShopListing from "../Components/WholeShopListing";
 import { constantActions } from "../store/constantSlice";
 import { useDispatch, useSelector } from "react-redux";
 import Details from "./Details";
+import FeaturedProductsListing from "../Components/FeaturedProductsListing";
 
 export default function Shop() {
   const dispatch = useDispatch();

@@ -1,0 +1,36 @@
+.Details-note{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.Details-note-container{
+    max-width: 350px;
+}
+
+.Details-note-container h3{
+    font-size: 20px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+
+.Details-note-container span{
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: poppins, sans-serif;
+    margin-top: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.Details-note-container p{
+    font-size: 13px;
+    font-family: poppins, sans-serif;
+    margin-bottom: 40px;
+    padding-right: 20px;
+}

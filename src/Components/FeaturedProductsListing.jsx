@@ -45,11 +45,11 @@ export function FeaturedProductItem({ data }) {
 
 export default function FeaturedProductsListing({ featuredTitle, products }) {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
   };
 
   return (
@@ -72,11 +72,11 @@ export default function FeaturedProductsListing({ featuredTitle, products }) {
         </div>
 
         <div className="featured-product-listing-container">
+          {/* <Slider {...settings} style={{}}> */}
           {products.map(function (item) {
             return <FeaturedProductItem key={item._id} data={item} />;
           })}
-
-          {/* <Slider {...settings}></Slider> */}
+          {/* </Slider> */}
         </div>
       </section>
     </>
