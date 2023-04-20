@@ -35,7 +35,7 @@
 .footer-item h3{
     text-align: center;
     text-transform: capitalize;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin-bottom: 30px;
     letter-spacing: 1px;
     font-family: poppins, sans-serif;

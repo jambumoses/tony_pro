@@ -27,12 +27,12 @@ export default function Footer() {
         </div>
 
         <div className="footer-item">
-          <h3>services</h3>
+          <h3>company</h3>
           <div>
             <ul>
-              <li>computer repair</li>
-              <li>shop now</li>
-              <li>phone guides</li>
+              <li>about us</li>
+              <li>feed back</li>
+              <li>customer support</li>
               <li>computers</li>
               <li>alienware</li>
             </ul>
@@ -53,12 +53,12 @@ export default function Footer() {
         </div>
 
         <div className="footer-item">
-          <h3>legal</h3>
+          <h3>policy info</h3>
           <div>
             <ul>
-              <li>about us</li>
+              <li>privacy policy</li>
               <li>feedbacks</li>
-              <li>customer support</li>
+              <li>report abuse</li>
               <li>terms & conditions</li>
               <li>cookie choice</li>
             </ul>

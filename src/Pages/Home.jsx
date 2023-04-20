@@ -5,6 +5,7 @@ import BrandsBanner from "../Components/BrandsBanner";
 import { useDispatch, useSelector } from "react-redux";
 import { constantActions } from "../store/constantSlice";
 import Details from "./Details";
+import OfferScrollDealsBanner from "../Components/OfferScrollDealsBanner";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -30,6 +31,9 @@ export default function Home() {
       <FeaturedProductsListing featuredTitle="computers" products={Products} />
       <FeaturedProductsListing featuredTitle="printers" products={Products} />
       <BrandsBanner image={computersBanner} />
+      <FeaturedProductsListing featuredTitle="gaming consoles" products={Products} />
+
+      <OfferScrollDealsBanner />
     </>
   );
 }

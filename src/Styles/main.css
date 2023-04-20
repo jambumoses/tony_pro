@@ -6,9 +6,9 @@
 @import url("./wholeShopListing.css");
 @import url("./DetailsHeroSection.css");
 @import url("./footerBrandsListing.css");
+@import url("./OfferScrollDealsBanner.css");
 @import url("./featuredProductsListing.css");
 @import url("./DetailsInformationSection.css");
-
 /* body resetting */
 * {
   font-family: poppins, sans-serif;
