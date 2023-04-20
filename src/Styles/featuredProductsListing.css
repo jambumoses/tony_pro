@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 5% 3%;
+    background-color: transparent;
 }
 
 .featured-product-listing-head-section{
@@ -35,13 +36,15 @@
 
 
 .featured-product-listing-container{
-    display: flex;
+    display: block;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
     background-color: transparent;
-    height: 300px;
+    /* height: 300px; */
     margin-top: 10px;
+    padding-top: 20px;
     overflow: hidden;
 }
 
@@ -55,7 +58,7 @@
 
 .featured-product-thumbnail{
     display: block;
-    height: 65%;
+    height: 200px;
     width: 100%;
     background-color: transparent;
     cursor: pointer;

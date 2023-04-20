@@ -42,6 +42,7 @@ export default function Details() {
       </div>
       {/* related products   */}
       <FeaturedProductsListing
+        delay={4000}
         featuredTitle="related products"
         products={Products}
       />

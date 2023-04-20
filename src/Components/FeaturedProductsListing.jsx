@@ -77,13 +77,15 @@ export function FeaturedProductItem({ data }) {
   );
 }
 
-export default function FeaturedProductsListing({ featuredTitle, products }) {
+export default function FeaturedProductsListing({delay, featuredTitle, products }) {
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
+    autoplay: true,
+    autoplaySpeed: delay,
   };
 
   return (
@@ -106,11 +108,11 @@ export default function FeaturedProductsListing({ featuredTitle, products }) {
         </div>
 
         <div className="featured-product-listing-container">
-          {/* <Slider {...settings} style={{}}> */}
+          <Slider {...settings} style={{}}>
           {products.map(function (item) {
             return <FeaturedProductItem key={item._id} data={item} />;
           })}
-          {/* </Slider> */}
+          </Slider>
         </div>
       </section>
     </>

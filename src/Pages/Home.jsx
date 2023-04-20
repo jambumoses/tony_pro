@@ -27,11 +27,11 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <FeaturedProductsListing featuredTitle="top trends" products={Products} />
-      <FeaturedProductsListing featuredTitle="computers" products={Products} />
-      <FeaturedProductsListing featuredTitle="printers" products={Products} />
+      <FeaturedProductsListing delay={3000} featuredTitle="top trends" products={Products} />
+      <FeaturedProductsListing delay={5000} featuredTitle="computers" products={Products} />
+      <FeaturedProductsListing delay={7000} featuredTitle="printers" products={Products} />
       <BrandsBanner image={computersBanner} />
-      <FeaturedProductsListing featuredTitle="gaming consoles" products={Products} />
+      <FeaturedProductsListing delay={6000} featuredTitle="gaming consoles" products={Products} />
 
       <OfferScrollDealsBanner />
     </>
