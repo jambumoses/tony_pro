@@ -9,6 +9,7 @@ import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Cart from "./Pages/Cart";
 
 /* styles */
 import "./Styles/main.css";
@@ -48,6 +49,7 @@ function App() {
           <Route path="/index" component={Home} />
 
           <Route path="/shop" component={Shop} />
+          <Route path="/cart" component={Cart} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
 

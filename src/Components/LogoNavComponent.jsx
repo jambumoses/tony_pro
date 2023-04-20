@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import $ from "jquery";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 function showSearchInput() {
   $("#search-input").slideToggle("slow");
@@ -38,8 +39,10 @@ export default function LogoNavComponent() {
             <i className="fa fa-heart"></i>
           </span>
           <span className="hero-nav-right-item">
-            <i className="fa fa-shopping-cart"></i>{" "}
-            <sup className="shopping-cart-count">{cartNo}</sup>
+            <Link to="/cart" style={{ textDecoration: "none" }}>
+              <i className="fa fa-shopping-cart"></i>{" "}
+              <sup className="shopping-cart-count">{cartNo}</sup>
+            </Link>
           </span>
         </div>
       </section>
