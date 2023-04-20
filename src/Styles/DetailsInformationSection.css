@@ -34,3 +34,13 @@
     margin-bottom: 40px;
     padding-right: 20px;
 }
+
+
+.Details-note-container table{
+    width: 100%;
+}
+
+.Details-note-container table tr td{
+    padding: 10px 0px;
+    text-transform: capitalize;
+}

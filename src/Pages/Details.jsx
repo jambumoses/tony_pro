@@ -10,6 +10,11 @@ export default function Details() {
   const detailsData = useSelector((state) => state.constant.data.details_page);
   const Products = useSelector((state) => state.constant.data.products);
 
+  const companyName = useSelector((state) => state.constant.companyTitle);
+
+  dispatch(constantActions.updatePageTitles(companyName + " . " + "Details"));
+  dispatch(constantActions.setCurrentPage("Details"));
+
   function resetDetailsPage() {
     dispatch(constantActions.updateDetailsPage(""));
   }
@@ -20,7 +25,8 @@ export default function Details() {
       <DetailsInformationSection data={detailsData} />
       {/* back button */}
       <div style={{ padding: "0px 5%" }}>
-        <button onClick={resetDetailsPage}
+        <button
+          onClick={resetDetailsPage}
           style={{
             fontSize: "15px",
             fontWeight: "500",

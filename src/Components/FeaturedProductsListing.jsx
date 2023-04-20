@@ -30,11 +30,45 @@ export function FeaturedProductItem({ data }) {
         </span>
         <span className="featured-product-rate-section">
           <span className="featured-product-rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
+            {data.rating === 1 && (
+              <>
+                <i className="fa fa-star"></i>
+              </>
+            )}
+
+            {data.rating === 2 && (
+              <>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+              </>
+            )}
+
+            {data.rating === 3 && (
+              <>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+              </>
+            )}
+
+            {data.rating === 4 && (
+              <>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+              </>
+            )}
+
+            {data.rating === 5 && (
+              <>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+              </>
+            )}
           </span>
           <span className="featured-product-price">{data.price}</span>
         </span>

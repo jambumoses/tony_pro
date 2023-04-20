@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { constantActions } from "../store/constantSlice";
 import LogoNavComponent from "./LogoNavComponent";
@@ -28,11 +28,45 @@ function WholeShopItem({ data }) {
         </span>
         <span className="wholeShop-product-rate-section">
           <span className="wholeShop-product-rating">
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
+            {data.rating === 1 && (
+              <>
+                <i className="fa fa-star"></i>
+              </>
+            )}
+
+            {data.rating === 2 && (
+              <>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+              </>
+            )}
+
+            {data.rating === 3 && (
+              <>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+              </>
+            )}
+
+            {data.rating === 4 && (
+              <>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+              </>
+            )}
+
+            {data.rating === 5 && (
+              <>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+              </>
+            )}
           </span>
           <span className="wholeShop-product-price">{data.price}</span>
         </span>
@@ -43,6 +77,11 @@ function WholeShopItem({ data }) {
 
 export default function WholeShopListing() {
   const wholeProducts = useSelector((state) => state.constant.data.products);
+  const [MoreProductsLimit, setMoreProductsLimit] = useState(30);
+
+  function addMoreProducts() {
+    setMoreProductsLimit(MoreProductsLimit + 20);
+  }
 
   return (
     <>
@@ -70,7 +109,7 @@ export default function WholeShopListing() {
 
       <section className="wholeShopListing-section">
         <main>
-          {wholeProducts.map(function (item) {
+          {wholeProducts.slice(0,MoreProductsLimit).map(function (item) {
             return <WholeShopItem key={item._id} data={item} />;
           })}
         </main>
@@ -256,7 +295,13 @@ export default function WholeShopListing() {
       </section>
 
       <div className="see-more-btn">
-        <button type="button">see more</button>
+
+        {
+          (MoreProductsLimit < wholeProducts.length) &&
+        <button type="button" onClick={addMoreProducts}>
+          see more
+        </button>
+        }
       </div>
     </>
   );

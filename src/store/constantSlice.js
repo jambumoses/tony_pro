@@ -37,7 +37,7 @@ const constantSlice = createSlice({
       state.data.details_page = action.payload;
     },
     AddToCart(state, action) {
-      console.log(action.payload);
+      state.data.cart.products.push(action.payload);
     },
     RefeshCartCount(state) {
       state.data.cart.count = state.data.cart.products.length;
