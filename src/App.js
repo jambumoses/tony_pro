@@ -18,6 +18,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import $ from "jquery";
 import { constantActions } from "./store/constantSlice";
+import Account from "./Pages/Account";
 
 function App() {
   const dispatch = useDispatch();
@@ -52,6 +53,7 @@ function App() {
           <Route path="/cart" component={Cart} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/account" component={Account} />
 
           {/* 404 */}
           <Route path="*" component={Home} />

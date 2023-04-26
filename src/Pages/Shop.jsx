@@ -27,6 +27,7 @@ export default function Shop() {
 
       {/* related products   */}
       <FeaturedProductsListing
+      delay={5000}
         featuredTitle="related products"
         products={Products}
       />

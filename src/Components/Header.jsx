@@ -41,6 +41,7 @@ export default function Header() {
         <span><Link to="/shop" onClick={resetDetailsPage} className={(CurrentPage == "Shop")?"a active":"a"}>shop</Link></span>
         <span><Link to="/about" onClick={resetDetailsPage} className={(CurrentPage == "About")?"a active":"a"}>about</Link></span>
         <span><Link to="/contact" onClick={resetDetailsPage} className={(CurrentPage == "Contact")?"a active":"a"}>contact</Link></span>
+        <span><Link to="/account" onClick={resetDetailsPage} className={(CurrentPage == "Account")?"a active":"a"}>my account</Link></span>
         <span id="showCartOnNav" style={{visibility:"hidden"}}><Link to="/cart"  onClick={resetDetailsPage} className={(CurrentPage == "Cart")?"a active":"a"}> <i style={{color: (CurrentPage == "Cart")? "lightgray":"grey"}} className="fa fa-shopping-cart"></i> <sup style={{color:"lightgray",fontSize:"12px"}}>{cartNo}</sup> </Link></span>
       </div>
     </nav>
