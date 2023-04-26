@@ -4,6 +4,7 @@ import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import LogoNavComponent from "./LogoNavComponent";
+import { Link } from "react-router-dom";
 
 function DropDownComponent({ subcategories }) {
   return (
@@ -72,6 +73,7 @@ export default function HeroSection() {
                 >
                   <span className="categories-nav-item-title">
                     {item.category}
+                    {/* <Link to="/detail">{item.category}</Link> */}
                   </span>
                   <span className="categories-nav-item-ico">
                     <i

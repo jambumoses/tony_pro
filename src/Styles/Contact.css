@@ -1,0 +1,142 @@
+.contact-banner-section {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 5%;
+  background-color: transparent;
+  /* background-color: antiquewhite; */
+  /* height: 100vh; */
+}
+
+.contact-banner-section h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: transparent;
+  width: 50%;
+  padding-top: 50px;
+}
+
+.contact-banner-section h1 span {
+  text-transform: uppercase;
+  font-family: poppins, sans-serif;
+  font-weight: 800;
+  font-size: 4vw;
+  padding: 10px 0px;
+}
+
+.contact-banner-section h1 p {
+  padding-top: 10%;
+  line-height: 20px;
+}
+
+.contact-banner-section section {
+  background-color: transparent;
+  width: 50%;
+}
+
+.contact-banner-section section img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.contact-Social-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: transparent;
+  padding: 5%;
+  text-align: center;
+}
+
+.contact-Social-section span {
+  display: block;
+}
+
+.contact-Social-section span i {
+  font-size: 3vw;
+}
+
+.contact-form-section {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 15%;
+}
+
+.contact-form-section section {
+  width: 50%;
+}
+
+.contact-form-section .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-form-section .right h1 {
+  font-size: 50px;
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.contact-form-section .right h1 span {
+  font-size: 16px;
+}
+
+.contact-form-section .right p {
+  padding: 0px;
+  font-size: 15px;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+}
+
+.contact-form-section .right button{
+    height: 30px;
+    width: 150px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 2px outset black;
+    cursor: pointer;
+}
+
+.contact-form-section .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-holder{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.input-holder label{
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.input-holder input{
+    padding: 0px 20px;
+    width: 70%;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px outset black;
+    outline: none;
+}
+
+
+.input-holder textarea{
+    padding: 20px;
+    min-width: 70%;
+    max-width: 70%;
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    border: 2px outset black;
+    outline: none;
+}

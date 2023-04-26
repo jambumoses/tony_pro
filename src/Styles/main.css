@@ -1,4 +1,5 @@
 /* imports */
+@import url("Contact.css");
 @import url("./header.css");
 @import url("./Footer.css");
 @import url("./heroSection.css");
@@ -8,7 +9,9 @@
 @import url("./footerBrandsListing.css");
 @import url("./OfferScrollDealsBanner.css");
 @import url("./featuredProductsListing.css");
+@import url("./FooterSubscribeComponent.css");
 @import url("./DetailsInformationSection.css");
+
 /* body resetting */
 * {
   font-family: poppins, sans-serif;

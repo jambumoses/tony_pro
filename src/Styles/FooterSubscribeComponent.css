@@ -1,0 +1,44 @@
+.subscribe-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 5%;
+}
+
+.subscribe-section h3{
+    font-size: 50px;
+    padding: 20px 20%;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 70px;
+    font-family: poppins ,sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.subscribe-section input{
+    height: 50px;
+    width: 50%;
+    margin-bottom: 50px;
+    outline: none;
+    border-radius: 30px;
+    padding: 0px 25px;
+    font-family: poppins, sans-serif;
+    border: 2px outset black;
+    font-weight: 500;
+    text-align: center;
+}
+
+.subscribe-section button{
+    height: 40px;
+    width: 200px;
+    outline: none;
+    border-radius: 30px;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 15px;
+    border: 0px outset black;
+    background: -webkit-linear-gradient(50deg,rgba(112, 76, 76, 0),rgb(129, 129, 129));
+    cursor: pointer;
+}

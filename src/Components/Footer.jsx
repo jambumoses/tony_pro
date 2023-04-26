@@ -1,9 +1,11 @@
 import React from "react";
 import FooterBrandsListing from "./FooterBrandsListing";
+import FooterSubscribeComponent from "./FooterSubscribeComponent";
 
 export default function Footer() {
   return (
     <>
+      <FooterSubscribeComponent/>
       <FooterBrandsListing />
       <section className="footer-payment-method-section">
         <div><img src={require("../Assets/payment/payment-methods.png")} alt="" /></div>
