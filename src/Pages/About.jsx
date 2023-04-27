@@ -17,150 +17,110 @@ export default function About() {
         <small>products categories</small>
         <section className="scrolling-category-container">
           <section className="animate-section-1">
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">computers</span>
+            <div className="scroll-item-con1">
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">computers</span>
+              </div>
+
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">printers</span>
+              </div>
+
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">samsung phones</span>
+              </div>
+
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/leon-seibert-IjEsNibC4pc-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">television</span>
+              </div>
+
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/paolo-giubilato-ZwKCWVFdrcs-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">television</span>
+              </div>
             </div>
 
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">printers</span>
-            </div>
+            <div className="scroll-item-con1">
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">computers</span>
+              </div>
 
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">samsung phones</span>
-            </div>
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">printers</span>
+              </div>
 
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/leon-seibert-IjEsNibC4pc-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">television</span>
-            </div>
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">samsung phones</span>
+              </div>
 
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/paolo-giubilato-ZwKCWVFdrcs-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">television</span>
-            </div>
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/leon-seibert-IjEsNibC4pc-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">television</span>
+              </div>
 
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/pascal-m-4PchFKrUw84-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">television</span>
-            </div>
-
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/quino-al-xhGMQ_nYWqU-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">television</span>
-            </div>
-          </section>
-
-          <section className="animate-section-1">
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">computers</span>
-            </div>
-
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">printers</span>
-            </div>
-
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">samsung phones</span>
-            </div>
-
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/leon-seibert-IjEsNibC4pc-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">television</span>
-            </div>
-
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/paolo-giubilato-ZwKCWVFdrcs-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">television</span>
-            </div>
-
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/pascal-m-4PchFKrUw84-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">television</span>
-            </div>
-
-            <div className="scroll-item">
-              <span className="icon">
-                <img
-                  src={require("../Assets/products/quino-al-xhGMQ_nYWqU-unsplash-removebg-preview.png")}
-                  alt=""
-                />
-              </span>
-              <span className="label">television</span>
+              <div className="scroll-item">
+                <span className="icon">
+                  <img
+                    src={require("../Assets/products/paolo-giubilato-ZwKCWVFdrcs-unsplash-removebg-preview.png")}
+                    alt=""
+                  />
+                </span>
+                <span className="label">television</span>
+              </div>
             </div>
           </section>
-
-
         </section>
       </section>
 
