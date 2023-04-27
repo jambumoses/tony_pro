@@ -1,0 +1,172 @@
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@-webkit-keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+
+.scrolling-category-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 10%;
+}
+
+.scrolling-category-section small {
+  text-transform: lowercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.scrolling-category-container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+}
+
+.animate-section-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  background-color: aqua;
+  width: 100%;
+  animation: marquee 20s linear infinite;
+  left: 20px;
+}
+
+.scrolling-category-container:hover {
+  animation-play-state: paused;
+}
+
+.scroll-item {
+  background-color: rgba(211, 211, 211, 0.432);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  margin-right: 20px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  cursor: pointer;
+}
+
+.scroll-item:hover {
+  background-color: grey;
+}
+
+.scroll-item .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.scroll-item .icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.scroll-item .label {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: poppins, sans-serif;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.services-section {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  padding: 5% 10%;
+}
+
+.services-section div {
+  width: 50%;
+}
+
+.service-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-titles h1 {
+  font-size: 5vw;
+  font-weight: bold;
+  font-family: poppins, sans-serif;
+}
+
+.service-titles span {
+  font-size: 4vw;
+  font-weight: bold;
+  font-family: poppins, sans-serif;
+}
+
+.services-right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-right-section span button {
+  height: 35px;
+  width: 170px;
+  border-radius: 30px;
+}
+
+.services-right-section span p {
+  padding-top: 20px;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.services-right-section span h3 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+
+.services-right-section span ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: space-between;
+  height: 200px;
+}
+
+.services-right-section span ul li {
+  padding: 5px 0px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: poppins, sans-serif;
+}
