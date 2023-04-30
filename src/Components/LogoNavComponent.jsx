@@ -32,12 +32,12 @@ export default function LogoNavComponent() {
               </button>
             </form>
           </span>
-          <span className="hero-nav-right-item">
+{/*           <span className="hero-nav-right-item">
             <i className="fa fa-user"></i>
           </span>
           <span className="hero-nav-right-item">
             <i className="fa fa-heart"></i>
-          </span>
+          </span> */}
           <span className="hero-nav-right-item">
             <Link to="/cart" style={{ textDecoration: "none" }}>
               <i className="fa fa-shopping-cart"></i>{" "}

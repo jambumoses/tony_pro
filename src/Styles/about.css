@@ -16,6 +16,48 @@
   }
 }
 
+.about-banner-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60vh;
+  padding: 0px 10%;
+/*   background: url("../Assets/banners/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+
+.about-banner-thumbnail{
+  width: 50%;
+}
+
+.about-banner-thumbnail img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about-banner-note {
+  background-color: transparent;
+  width: 40%;
+}
+
+.about-banner-note h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+  margin: 30px 0px;
+}
+
+.about-banner-note p {
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+}
+
 .scrolling-category-section {
   display: flex;
   flex-direction: column;
@@ -26,9 +68,10 @@
 .scrolling-category-section small {
   text-transform: lowercase;
   font-size: 13px;
+  font-family: poppins, sans-serif, monospace;
   letter-spacing: 1px;
   text-decoration: underline;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .scrolling-category-container {
@@ -56,27 +99,16 @@
 }
 
 .animate-section-1:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .scroll-item-con1 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: flex-start;
   width: 100%;
 }
-/* 
-.animate-section-1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: absolute;
-  background-color: aqua;
-  width: 100%;
-  animation: marquee 20s linear infinite;
-  left: 20px;
-} */
-
 
 .scroll-item {
   background-color: rgba(211, 211, 211, 0.432);
@@ -90,10 +122,12 @@
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
   cursor: pointer;
+  width: auto;
 }
 
 .scroll-item:hover {
   background-color: grey;
+  background-color: rgba(211, 211, 211, 0.671);
 }
 
 .scroll-item .icon {

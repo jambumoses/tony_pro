@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
@@ -7,6 +7,8 @@ import LogoNavComponent from "./LogoNavComponent";
 import { Link } from "react-router-dom";
 
 function DropDownComponent({ subcategories }) {
+
+
   return (
     <>
       <section
@@ -16,7 +18,12 @@ function DropDownComponent({ subcategories }) {
         {subcategories.map(function (item) {
           return (
             <>
-              <span key={item._id}>{item.name}</span>
+              <span key={item._id}>
+                <a href={"/shop?category="+item.name}>{item.name}</a>
+{/*                 <Link to="/shop" className="a">
+                  {item.name}
+                </Link> */}
+              </span>
             </>
           );
         })}
@@ -35,15 +42,17 @@ export default function HeroSection() {
 
   const [subcategoriesData, setSubcategoriesData] = useState([]);
   const heroBanners = useSelector((state) => state.constant.data.banners.home);
+
   const note_offers = useSelector(
     (state) => state.constant.data.banners.note_offers
   );
+
   const categories = useSelector((state) => state.constant.data.categories);
 
   return (
     <>
       <div className="hero-section">
-      <LogoNavComponent/>
+        <LogoNavComponent />
 
         {/* dropdowns section*/}
         {subcategoriesData && (
@@ -73,7 +82,6 @@ export default function HeroSection() {
                 >
                   <span className="categories-nav-item-title">
                     {item.category}
-                    {/* <Link to="/detail">{item.category}</Link> */}
                   </span>
                   <span className="categories-nav-item-ico">
                     <i

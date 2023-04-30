@@ -11,7 +11,21 @@ export default function About() {
 
   return (
     <>
-      <section>banner section</section>
+      <section className="about-banner-section">
+        <div className="about-banner-thumbnail">
+          <img src={require("../Assets/banners/freestocks-_3Q3tsJ01nc-unsplash-removebg-preview.png")} alt="" />
+        </div>
+
+        <div className="about-banner-note">
+          <h1>about us</h1>
+          <p>
+            A wiki is essentially a database for creating, browsing, and
+            searching through information. A wiki allows non-linear, evolving,
+            complex, and networked text, while also allowing for editor
+            argument, debate, and interaction regarding the content and
+          </p>
+        </div>
+      </section>
 
       <section className="scrolling-category-section">
         <small>products categories</small>

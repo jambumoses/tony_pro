@@ -96,8 +96,23 @@
   transition: 0.3s linear;
 }
 
-.hero-banner-categories-dropdown-section span:hover {
+.hero-banner-categories-dropdown-section span .a{
+  display: inline-block;
+  text-decoration: none;
   color: grey;
+  margin: 5px 2px;
+  width: 110px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  transition: 0.3s linear;
+}
+
+
+.hero-banner-categories-dropdown-section span .a:hover {
+  color: rgb(187, 187, 187);
   transition: 0.3s linear;
 }
 
@@ -122,6 +137,7 @@
   font-weight: 500;
   transition: 0.3s linear;
 }
+
 
 .categories-nav-item-title:hover {
   color: grey;

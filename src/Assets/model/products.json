@@ -1,6 +1,6 @@
 [
   {
-    "_id": "124",
+    "_id": "1",
     "title": "Acer Aspire R3",
     "category": "computer",
     "color": "black",
@@ -23,8 +23,10 @@
         }
       ]
     },
+    "quantity": 1,
     "rating": 5,
-    "price": "$ 2,050",
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -98,7 +100,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "2",
     "title": "Acer Aspire R3",
     "category": "printers",
     "color": "red",
@@ -121,8 +123,10 @@
         }
       ]
     },
-    "rating": 3,
-    "price": "$ 2,050",
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -196,9 +200,9 @@
   },
 
   {
-    "_id": "124",
+    "_id": "3",
     "title": "Acer Aspire R3",
-    "category": "phones",
+    "category": "computer",
     "color": "pink",
     "brand": "dell",
     "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
@@ -219,8 +223,10 @@
         }
       ]
     },
+    "quantity": 1,
     "rating": 5,
-    "price": "$ 2,050",
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -294,7 +300,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "4",
     "title": "Acer Aspire R3",
     "category": "tablets",
     "color": "grey",
@@ -317,8 +323,10 @@
         }
       ]
     },
-    "rating": 3,
-    "price": "$ 2,050",
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -392,7 +400,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "5",
     "title": "Acer Aspire R3",
     "category": "electronics",
     "color": "skyblue",
@@ -415,8 +423,10 @@
         }
       ]
     },
+    "quantity": 1,
     "rating": 5,
-    "price": "$ 2,050",
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -490,7 +500,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "6",
     "title": "Acer Aspire R3",
     "category": "mac books",
     "color": "silver",
@@ -513,8 +523,10 @@
         }
       ]
     },
-    "rating": 4,
-    "price": "$ 2,050",
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -588,7 +600,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "7",
     "title": "Acer Aspire R3",
     "category": "hp",
     "color": "black",
@@ -611,8 +623,10 @@
         }
       ]
     },
-    "rating": 3,
-    "price": "$ 2,050",
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -686,7 +700,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "8",
     "title": "Acer Aspire R3",
     "category": "lenovo",
     "color": "purple",
@@ -709,8 +723,10 @@
         }
       ]
     },
+    "quantity": 1,
     "rating": 5,
-    "price": "$ 2,050",
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -784,7 +800,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "9",
     "title": "Acer Aspire R3",
     "category": "alien ware",
     "color": "black",
@@ -807,8 +823,10 @@
         }
       ]
     },
+    "quantity": 1,
     "rating": 5,
-    "price": "$ 2,050",
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -882,7 +900,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "10",
     "title": "Acer Aspire R3",
     "category": "repairs",
     "color": "black",
@@ -905,8 +923,10 @@
         }
       ]
     },
-    "rating": 3,
-    "price": "$ 2,050",
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -980,7 +1000,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "11",
     "title": "Acer Aspire R3",
     "category": "gaming pc",
     "color": "black",
@@ -1003,8 +1023,10 @@
         }
       ]
     },
-    "rating": 2,
-    "price": "$ 2,050",
+    "quantity": 1,
+    "rating": 4,
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,
@@ -1078,7 +1100,7 @@
   },
 
   {
-    "_id": "124",
+    "_id": "12",
     "title": "Acer Aspire R3",
     "category": "microsoft pc",
     "color": "black",
@@ -1101,8 +1123,10 @@
         }
       ]
     },
-    "rating": 4,
-    "price": "$ 2,050",
+    "quantity": 1,
+    "rating": 3,
+    "price": 2050,
+    "subprice": 2050,
     "details": [
       {
         "_id": 1,

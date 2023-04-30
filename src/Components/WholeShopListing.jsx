@@ -2,9 +2,42 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { constantActions } from "../store/constantSlice";
 import LogoNavComponent from "./LogoNavComponent";
+import ShopAside from "./ShopAside";
+
+function EmptyWholeShopSearch({ message = "helo" }) {
+  return (
+    <>
+      <section
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          padding: "0px 5%",
+        }}
+      >
+        <h3
+          style={{
+            textTransform: "capitalize",
+            fontSize: "15px",
+            fontFamily: "poppins, sans-serif",
+            fontWeight: "400",
+            color: "grey",
+            margin: "0px",
+            padding: "10px",
+          }}
+        >
+          {message}
+        </h3>
+      </section>
+    </>
+  );
+}
 
 function WholeShopItem({ data }) {
   const dispatch = useDispatch();
+  const cartProducts = useSelector(
+    (state) => state.constant.data.cart.products
+  );
 
   function updateDetailsPage(item) {
     dispatch(constantActions.updateDetailsPage(item));
@@ -18,6 +51,13 @@ function WholeShopItem({ data }) {
           className="wholeShop-product-thumbnail"
           onClick={() => updateDetailsPage(data)}
         >
+          {cartProducts.includes(data) && (
+            <span className="product-incart">
+              <span className="product-incart-icon">
+                <i className="fa fa-shopping-cart"></i>
+              </span>
+            </span>
+          )}
           <img src={require(`../Assets/products/${data.assets.url}`)} alt="" />
         </span>
         <span className="wholeShop-product-title">{data.title}</span>
@@ -68,7 +108,7 @@ function WholeShopItem({ data }) {
               </>
             )}
           </span>
-          <span className="wholeShop-product-price">{data.price}</span>
+          <span className="wholeShop-product-price">$ {data.price}</span>
         </span>
       </div>
     </>
@@ -76,8 +116,11 @@ function WholeShopItem({ data }) {
 }
 
 export default function WholeShopListing() {
+  const dispatch = useDispatch();
   const wholeProducts = useSelector((state) => state.constant.data.products);
   const [MoreProductsLimit, setMoreProductsLimit] = useState(30);
+
+  const shopCategories = useSelector((state) => state.constant.data.shopFilter);
 
   function addMoreProducts() {
     setMoreProductsLimit(MoreProductsLimit + 20);
@@ -109,199 +152,21 @@ export default function WholeShopListing() {
 
       <section className="wholeShopListing-section">
         <main>
-          {wholeProducts.slice(0,MoreProductsLimit).map(function (item) {
+          {wholeProducts.slice(0, MoreProductsLimit).map(function (item) {
             return <WholeShopItem key={item._id} data={item} />;
+            /* end of filter */
           })}
         </main>
 
-        <aside>
-          <section className="filter-container">
-            <header>categories</header>
-            <div className="filter-list">
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> computers (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> phones & tablets (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> electronics (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> printers (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> softwares (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> game consoles (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> supermarket (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> headsets (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> computer chargers (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> radios (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> television (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> smart watches (21)
-              </span>
-            </div>
-
-            <div className="filter-buttons">
-              <button>clear</button>
-              <button>apply</button>
-            </div>
-          </section>
-
-          <section className="filter-container">
-            <header>brands</header>
-            <div className="filter-list">
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> sony (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> samsung (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> lenovo (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> hp (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> dell (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> tosheba (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> mac book pro (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> apple (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> infinix (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> tecno (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> itel (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> vigo (21)
-              </span>
-            </div>
-
-            <div className="filter-buttons">
-              <button>clear</button>
-              <button>apply</button>
-            </div>
-          </section>
-
-          <section className="filter-container">
-            <header>color</header>
-            <div className="filter-list">
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> black (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> red (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> silver (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> pink (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> grey (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> rose (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> yellow (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> brown (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> skyblue (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> blue (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> purple (21)
-              </span>
-              <span>
-                {" "}
-                <input type="radio" name="" id="" /> orange (21)
-              </span>
-            </div>
-
-            <div className="filter-buttons">
-              <button>clear</button>
-              <button>apply</button>
-            </div>
-          </section>
-        </aside>
+        <ShopAside />
       </section>
 
       <div className="see-more-btn">
-
-        {
-          (MoreProductsLimit < wholeProducts.length) &&
-        <button type="button" onClick={addMoreProducts}>
-          see more
-        </button>
-        }
+        {MoreProductsLimit < wholeProducts.length && (
+          <button type="button" onClick={addMoreProducts}>
+            see more
+          </button>
+        )}
       </div>
     </>
   );

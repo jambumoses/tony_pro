@@ -10,15 +10,19 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Cart from "./Pages/Cart";
+import Account from "./Pages/Account";
+import Shop from "./Pages/Shop";
 
 /* styles */
 import "./Styles/main.css";
-import Shop from "./Pages/Shop";
+
+/* imports */
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import $ from "jquery";
+
+/* react rudex store */
 import { constantActions } from "./store/constantSlice";
-import Account from "./Pages/Account";
 
 function App() {
   const dispatch = useDispatch();
@@ -36,8 +40,11 @@ function App() {
 
     /* updating cart count */
     dispatch(constantActions.RefeshCartCount());
+    /* update cart subtotals */
+    dispatch(constantActions.Cartsubtotal());
+    /* update cart total */
+    dispatch(constantActions.Carttotal());
   });
-
 
   return (
     <>

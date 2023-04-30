@@ -8,6 +8,7 @@ import { constantActions } from "../store/constantSlice";
 
 export function FeaturedProductItem({ data }) {
   const dispatch = useDispatch();
+  const cartProducts = useSelector(state=>state.constant.data.cart.products); 
   function updateDetailsPage(item) {
     dispatch(constantActions.updateDetailsPage(item));
   }
@@ -20,6 +21,14 @@ export function FeaturedProductItem({ data }) {
           className="featured-product-thumbnail"
           onClick={() => updateDetailsPage(data)}
         >
+          {cartProducts.includes(data) && (
+            <span className="featured-product-incart">
+              <span className="featured-incart-icon">
+                <i className="fa fa-shopping-cart"></i>
+              </span>
+            </span>
+          )}
+
           <img src={require(`../Assets/products/${data.assets.url}`)} alt="" />
         </span>
         <span className="featured-product-title">{data.title}</span>
@@ -70,14 +79,18 @@ export function FeaturedProductItem({ data }) {
               </>
             )}
           </span>
-          <span className="featured-product-price">{data.price}</span>
+          <span className="featured-product-price">$ {data.price}</span>
         </span>
       </div>
     </>
   );
 }
 
-export default function FeaturedProductsListing({delay, featuredTitle, products }) {
+export default function FeaturedProductsListing({
+  delay,
+  featuredTitle,
+  products,
+}) {
   const settings = {
     dots: false,
     infinite: true,
@@ -109,9 +122,9 @@ export default function FeaturedProductsListing({delay, featuredTitle, products 
 
         <div className="featured-product-listing-container">
           <Slider {...settings} style={{}}>
-          {products.map(function (item) {
-            return <FeaturedProductItem key={item._id} data={item} />;
-          })}
+            {products.map(function (item) {
+              return <FeaturedProductItem key={item._id} data={item} />;
+            })}
           </Slider>
         </div>
       </section>

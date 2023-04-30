@@ -103,7 +103,18 @@ export default function Contact() {
         </section>
       </section>
 
-      <OfferScrollDealsBannerBanner/>
+      <OfferScrollDealsBannerBanner />
+
+      <div className="gmap_canvas">
+        <iframe
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=african%20queen&t=&z=11&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
+      </div>
     </>
   );
 }

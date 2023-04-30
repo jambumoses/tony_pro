@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { constantActions } from "../store/constantSlice";
+import { Link } from "react-router-dom";
 
 export default function DetailsHeroSection({ data }) {
   const [MainImage, setMainImage] = useState(data.assets.url);
@@ -55,9 +56,14 @@ export default function DetailsHeroSection({ data }) {
               <strong>color: </strong>
               <span style={{ backgroundColor: data.color }}></span>
             </div>
-            <span>{data.price}</span>
+            <span>$ {data.price}</span>
           </div>
-          <button onClick={() => addCart(data)}>add to cart</button>
+          <div style={{ display: "flex" }}>
+            <button onClick={() => addCart(data)}>add to cart</button>
+            <Link to="/shop" style={{ textDecoration: "none" }}>
+              <button onClick={()=>dispatch(constantActions.updateDetailsPage(""))} style={{color: "grey"}}>continue shopping</button>
+            </Link>
+          </div>
         </div>
       </section>
     </>

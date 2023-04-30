@@ -16,10 +16,17 @@ const constantSlice = createSlice({
       banners: bannersModel,
       categories: categoriesModel,
       products: productsModel,
+      shopFilter: {},
       details_page: "",
       cart: {
         count: 0,
         products: [],
+      },
+      checkout: {
+        subtotal: 0,
+        taxation: 0,
+        shipping_fee: 0,
+        total: 0,
       },
     },
   },
@@ -36,11 +43,46 @@ const constantSlice = createSlice({
     updateDetailsPage(state, action) {
       state.data.details_page = action.payload;
     },
+    updateShopFilter(state, action) {
+      state.data.shopFilter = action.payload;
+    },
     AddToCart(state, action) {
       state.data.cart.products.push(action.payload);
     },
+    AddItemToCart(state, action) {
+      state.data.cart.products.map(function (item) {
+        if (item._id === action.payload._id) {
+          item.quantity++;
+          item.subprice = item.quantity * item.price;
+        }
+      });
+    },
+    updateCartPrices(state, action) {
+      state.data.cart.products.map(function (item) {
+        //item.quantity
+      });
+    },
+    ReduceItemFromCart(state, action) {
+      state.data.cart.products.map(function (item) {
+        if (item._id === action.payload._id) {
+          if (item.quantity != 1) {
+            item.quantity--;
+            item.subprice = item.quantity * item.price;
+          }
+        }
+      });
+    },
     RefeshCartCount(state) {
       state.data.cart.count = state.data.cart.products.length;
+    },
+    Cartsubtotal(state) {
+        state.data.checkout.subtotal = 20;
+    },
+    Carttotal(state) {
+      state.data.checkout.total =
+        state.data.checkout.subtotal +
+        state.data.checkout.taxation +
+        state.data.checkout.shipping_fee;
     },
   },
 });
