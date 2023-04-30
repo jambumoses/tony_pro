@@ -1,0 +1,115 @@
+.account-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.account-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+    padding: 0px 5%;
+    width: 50%;
+    height: 80vh;
+}
+
+.account-section h1{
+    text-align: left;
+    margin: 50px 0px;
+    text-transform: capitalize;
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.account-section form table{
+    border: 2px;
+}
+
+.account-section form table tr{
+    margin: 20px;
+}
+
+.account-section form table tr td{
+    width: 300px;
+    height: 50px;
+    text-transform: capitalize;
+    
+    font-family: poppins, sans-serif;
+}
+
+.account-section form table tr td input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border:2px inset beige;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.remember-section{
+    background-color: transparent;
+    margin: 50px 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.remember-section input{
+    margin-right: 20px;
+}
+
+
+.account-links-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.account-links-section .a{
+display: block;
+    margin: 10px 0px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: poppins, sans-serif;
+font-size: 14px;
+margin-top: 20px;
+color: rgb(13, 156, 223);
+cursor: pointer;
+}
+
+.login-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login-button button{
+    height: 30px;
+    width: 150px;
+    border: 2px inset black;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.login-button button:hover{
+    border: 2px outset black;
+}
+
+.account-logo-section{
+    width: 50%;
+    background-color: transparent;
+}
+
+.account-logo-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

@@ -1,9 +1,10 @@
 /* imports */
+@import url("./Cart.css");
 @import url("Contact.css");
 @import url("./about.css");
 @import url("./header.css");
 @import url("./Footer.css");
-@import url("./Cart.css");
+@import url("./accounts.css");
 @import url("./heroSection.css");
 @import url("./brandsBanner.css");
 @import url("./wholeShopListing.css");

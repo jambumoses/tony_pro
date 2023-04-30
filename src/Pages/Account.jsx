@@ -14,9 +14,9 @@ export default function Account() {
   );
   dispatch(constantActions.setCurrentPage("Account"));
 
-  const [AccountStatus, setAccountStatus] = useState("login");
+  const AccountStatus = useSelector(state=>state.constant.data.login);
 
-  if (AccountStatus !== "login") {
+  if (!AccountStatus) {
     return <SignUp />;
   } else {
     return <Login />;

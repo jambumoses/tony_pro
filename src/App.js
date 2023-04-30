@@ -44,6 +44,8 @@ function App() {
     dispatch(constantActions.Cartsubtotal());
     /* update cart total */
     dispatch(constantActions.Carttotal());
+    /* update cart subtotals */
+    dispatch(constantActions.Cartsubtotal());
   });
 
   return (

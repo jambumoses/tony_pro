@@ -12,6 +12,8 @@ const constantSlice = createSlice({
     currentPageTitle: "",
     currentPage: "",
     data: {
+      login: true,
+      isLogedin: false,
       OfferMessages: OfferMessagesModel,
       banners: bannersModel,
       categories: categoriesModel,
@@ -76,13 +78,28 @@ const constantSlice = createSlice({
       state.data.cart.count = state.data.cart.products.length;
     },
     Cartsubtotal(state) {
-        state.data.checkout.subtotal = 20;
+      let newarray = [];
+
+      state.data.cart.products.map(function (item) {
+        newarray.push(item.subprice);
+      });
+
+      state.data.checkout.subtotal = newarray.reduce((total, current) => {
+        return total + current;
+      }, 0);
     },
+
     Carttotal(state) {
       state.data.checkout.total =
         state.data.checkout.subtotal +
         state.data.checkout.taxation +
         state.data.checkout.shipping_fee;
+    },
+    loginState(state, action) {
+      state.data.login = action.payload;
+    },
+    isLogedinState(state, action) {
+      state.data.isLogedin = action.payload;
     },
   },
 });

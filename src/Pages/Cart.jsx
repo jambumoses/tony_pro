@@ -20,10 +20,16 @@ export default function Cart() {
   function CartItem({ item }) {
     function addItemToCart(item) {
       dispatch(constantActions.AddItemToCart(item));
+      /* refreshes */
+      dispatch(constantActions.Cartsubtotal());
+      dispatch(constantActions.Carttotal());
     }
 
     function reduceItemFromCart(item) {
       dispatch(constantActions.ReduceItemFromCart(item));
+      /* refreshes */
+      dispatch(constantActions.Cartsubtotal());
+      dispatch(constantActions.Carttotal());
     }
 
     return (

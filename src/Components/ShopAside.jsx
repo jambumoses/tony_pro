@@ -43,7 +43,9 @@ export default function ShopAside() {
         <section className="filter-container">
           <header>colors</header>
           <div className="filter-list">
-            {products.map(function (item) {
+            {
+            products.map(function (item) {
+
               return (
                 <>
                   <span>
