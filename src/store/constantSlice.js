@@ -13,7 +13,7 @@ const constantSlice = createSlice({
     currentPage: "",
     data: {
       login: true,
-      isLogedin: false,
+      isLogedin: true,
       OfferMessages: OfferMessagesModel,
       banners: bannersModel,
       categories: categoriesModel,
