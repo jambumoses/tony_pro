@@ -8,6 +8,14 @@ export default function ShopAside() {
   return (
     <>
       <aside>
+        <section className="aside-search-section">
+          <span>
+            <input type="search" placeholder="Search For Product" />
+            <button>
+              <i className="fa fa-search"></i>
+            </button>
+          </span>
+        </section>
         <section className="filter-container">
           <header>categories</header>
           <div className="filter-list">
@@ -43,9 +51,7 @@ export default function ShopAside() {
         <section className="filter-container">
           <header>colors</header>
           <div className="filter-list">
-            {
-            products.map(function (item) {
-
+            {products.map(function (item) {
               return (
                 <>
                   <span>

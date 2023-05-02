@@ -108,6 +108,43 @@
   background-color: transparent;
 }
 
+.aside-search-section{
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.aside-search-section span{
+  background-color: rgba(0, 0, 0, 0.185);
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+
+.aside-search-section span input{
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  background-color: transparent !important;
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+  color: rgb(66, 66, 66);
+  font-weight: 500;
+  text-align: center;
+}
+
+.aside-search-section span button{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.aside-search-section span button i{
+  font-size: 15px;
+  color: rgb(54, 54, 54);
+}
+
 .filter-container {
   display: flex;
   flex-direction: column;
