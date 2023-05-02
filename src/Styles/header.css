@@ -6,9 +6,10 @@
     background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.527),black);
     height: 50px;
     border: none;
-    /* width: 100%; */
+    width: 100%;
     padding: 2%;
-    /* position: fixed; */
+    position: fixed;
+    z-index: 100;
 }
 
 .nav-bar-note{

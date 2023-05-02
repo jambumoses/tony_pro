@@ -5,6 +5,7 @@
   background-color: transparent;
   /* background-color: antiquewhite; */
   /* height: 100vh; */
+  padding-top: 20px;
 }
 
 .contact-banner-section h1 {
@@ -27,6 +28,7 @@
 .contact-banner-section h1 p {
   padding-top: 10%;
   line-height: 20px;
+  padding-right: 100px;
 }
 
 .contact-banner-section section {

@@ -28,7 +28,7 @@ function App() {
   const dispatch = useDispatch();
 
   const browserIcons = useSelector((state) => state.constant.logo.browserTab);
-  //const currentPage = useSelector((state) => state.constant.currentPage);
+  const currentPage = useSelector((state) => state.constant.currentPage);
   const PageTitles = useSelector((state) => state.constant.currentPageTitle);
 
   useEffect(() => {
@@ -68,7 +68,7 @@ function App() {
           <Route path="*" component={Home} />
         </Switch>
 
-        <Footer />
+        {currentPage !== "Dashboard" && <Footer />}
       </Router>
     </>
   );

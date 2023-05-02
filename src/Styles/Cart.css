@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 3%;
+    padding-top: 100px;
 }
 
 .cart-section main{

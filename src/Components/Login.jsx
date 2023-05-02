@@ -9,6 +9,8 @@ function LoginComponent() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  /* errors */
   const [inputerrorEmail, setInputerrorEmail] = useState(false);
   const [inputerrorPassword, setInputerrorPassword] = useState(false);
 

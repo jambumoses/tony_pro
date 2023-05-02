@@ -1,6 +1,7 @@
 .account-container{
     display: flex;
     flex-direction: row;
+    padding-top: 50px;
 }
 
 .account-section{
@@ -10,7 +11,7 @@
     background-color: transparent;
     padding: 0px 5%;
     width: 50%;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .account-section h1{
@@ -105,6 +106,7 @@ cursor: pointer;
 
 .account-logo-section{
     width: 50%;
+    height: 100vh;
     background-color: transparent;
 }
 
