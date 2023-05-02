@@ -1,5 +1,16 @@
 .dashboard-content-section{
-    background-color: lightblue;
+    background-color: transparent !important;
     height: 100%;
     width: 82%;
+    padding-top: 70px;
+}
+
+.dashboard-content-container{
+    background-color: rgba(211, 211, 211, 0.13);
+    margin-right: 3%;
+    border-radius: 10px;
+    height: 95%;
+    padding: 55px 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }

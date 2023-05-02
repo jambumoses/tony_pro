@@ -1,5 +1,48 @@
 .dashboard-nav-section{
-    background-color: aqua;
+    background-color: transparent;
     height: 100%;
-    width: 17%;
+    /* width: 17%; */
+    width: 250px;
+    overflow-x: hidden;
+}
+
+.dashboard-nav-section h2{
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 18px;
+    font-family: poppins,sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.dashboard-nav-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.dashboard-nav-container .dashboard-nav-item-cont{
+    padding-left: 50px;
+    margin: 10px 0px;
+}
+
+.dashboard-nav-container .dashboard-nav-item-cont i{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.dashboard-nav-container .dashboard-nav-item-cont .a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    color: darkslategray;
+    transition: 0.1s linear;
+    cursor: pointer;
+}
+
+.dashboard-nav-container .dashboard-nav-item-cont .a:hover{
+    color: skyblue;
+    transition: 0.1s linear;
 }

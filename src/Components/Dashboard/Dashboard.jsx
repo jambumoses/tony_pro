@@ -1,4 +1,5 @@
 import React from "react";
+
 import DashboardNav from "./DashboardNav";
 import DashboardMain from "./DashboardMain";
 
@@ -22,6 +23,7 @@ export default function Dashboard() {
           flexDirection: "row",
           justifyContent: "space-between",
           height: "100vh",
+          overflow:"hidden"
         }}
       >
         <DashboardNav />

@@ -68,7 +68,22 @@ function App() {
           <Route path="*" component={Home} />
         </Switch>
 
-        {currentPage !== "Dashboard" && <Footer />}
+        {
+        currentPage !== "Dashboard" &&
+        currentPage !== "dashboard" &&
+        currentPage !== "dash-products" &&
+        currentPage !== "dash-orders" &&
+        currentPage !== "dash-adverts" &&
+        currentPage !== "dash-banners" &&
+        currentPage !== "dash-categories" &&
+        currentPage !== "dash-trends" && 
+        currentPage !== "dash-offers" &&
+        currentPage !== "dash-emails" &&
+        currentPage !== "dash-flash-messages" &&
+        currentPage !== "dash-settings" 
+        
+        
+        && <Footer />}
       </Router>
     </>
   );
