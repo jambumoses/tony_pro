@@ -119,8 +119,30 @@ export default function WholeShopListing() {
   const dispatch = useDispatch();
   const wholeProducts = useSelector((state) => state.constant.data.products);
   const [MoreProductsLimit, setMoreProductsLimit] = useState(30);
-
   const shopCategories = useSelector((state) => state.constant.data.shopFilter);
+
+  /**
+   * Shuffles array in place. ES6 version
+   * @param {Array} a items An array containing the items.
+   */
+
+  const [shuffleWholeProducts, setShuffleWholeProducts] = useState([
+    ...wholeProducts,
+  ]);
+  const [shuffleRelatedProducts, setShuffleRelatedProducts] = useState([
+    ...wholeProducts,
+  ]);
+
+  function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      x = a[i];
+      a[i] = a[j];
+      a[j] = x;
+    }
+    return a;
+  }
 
   function addMoreProducts() {
     setMoreProductsLimit(MoreProductsLimit + 20);
@@ -152,10 +174,12 @@ export default function WholeShopListing() {
 
       <section className="wholeShopListing-section">
         <main>
-          {wholeProducts.slice(0, MoreProductsLimit).map(function (item) {
-            return <WholeShopItem key={item._id} data={item} />;
-            /* end of filter */
-          })}
+          {shuffle(shuffleWholeProducts)
+            .slice(0, MoreProductsLimit)
+            .map(function (item) {
+              return <WholeShopItem key={item._id} data={item} />;
+              /* end of filter */
+            })}
         </main>
 
         <ShopAside />

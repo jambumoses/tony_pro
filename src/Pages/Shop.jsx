@@ -15,6 +15,22 @@ export default function Shop() {
   const Products = useSelector((state) => state.constant.data.products);
   const details_page = useSelector((state) => state.constant.data.details_page);
 
+  const [shuffleRelatedProducts, setShuffleRelatedProducts] = useState([
+    ... Products,
+  ]);
+
+  function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      x = a[i];
+      a[i] = a[j];
+      a[j] = x;
+    }
+    return a;
+  }
+
+  
   if (details_page !== "") {
     return <Details />;
   }
@@ -27,9 +43,9 @@ export default function Shop() {
 
       {/* related products   */}
       <FeaturedProductsListing
-      delay={5000}
+        delay={5000}
         featuredTitle="related products"
-        products={Products}
+        products={shuffle(shuffleRelatedProducts)}
       />
     </>
   );

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import FeaturedProductsListing from "../Components/FeaturedProductsListing";
 import { constantActions } from "../store/constantSlice";
@@ -10,12 +10,30 @@ export default function Cart() {
   const cartNo = useSelector((state) => state.constant.data.cart.count);
   const checkout = useSelector((state) => state.constant.data.checkout);
 
-
   const dispatch = useDispatch();
   const companyName = useSelector((state) => state.constant.companyTitle);
 
   dispatch(constantActions.updatePageTitles(companyName + " . " + "Cart"));
   dispatch(constantActions.setCurrentPage("Cart"));
+
+  const [shuffleRelatedProducts, setShuffleRelatedProducts] = useState([
+    ...Products,
+  ]);
+
+  const [shuffleTrendingProducts, setShuffleTrendingProducts] = useState([
+    ...Products,
+  ]);
+
+  function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      x = a[i];
+      a[i] = a[j];
+      a[j] = x;
+    }
+    return a;
+  }
 
   function CartItem({ item }) {
     function addItemToCart(item) {
@@ -129,7 +147,7 @@ export default function Cart() {
           {cartNo === 0 && (
             <div className="cart-items-empty-section">
               <span>
-                <i className="fa fa-shopping-cart"></i>
+                <i className="fa fa-cart-plus"></i>
               </span>
               <h1>make some orders</h1>
               <Link className="." to="/shop">
@@ -155,7 +173,9 @@ export default function Cart() {
 
             <span className="cart-aside-cont">
               <span className="cart-aside-heading">shipping fee</span>
-              <span className="cart-aside-content">$. {checkout.shipping_fee}</span>
+              <span className="cart-aside-content">
+                $. {checkout.shipping_fee}
+              </span>
             </span>
 
             <span className="cart-aside-cont">
@@ -170,14 +190,14 @@ export default function Cart() {
       <FeaturedProductsListing
         delay={5000}
         featuredTitle="related products"
-        products={Products}
+        products={shuffle(shuffleRelatedProducts)}
       />
 
       {/* trends */}
       <FeaturedProductsListing
         delay={6000}
         featuredTitle="top rating products"
-        products={Products}
+        products={shuffle(shuffleTrendingProducts)}
       />
     </>
   );

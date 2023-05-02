@@ -8,7 +8,9 @@ import { constantActions } from "../store/constantSlice";
 
 export function FeaturedProductItem({ data }) {
   const dispatch = useDispatch();
-  const cartProducts = useSelector(state=>state.constant.data.cart.products); 
+  const cartProducts = useSelector(
+    (state) => state.constant.data.cart.products
+  );
   function updateDetailsPage(item) {
     dispatch(constantActions.updateDetailsPage(item));
   }
