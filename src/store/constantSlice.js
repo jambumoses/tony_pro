@@ -18,7 +18,16 @@ const constantSlice = createSlice({
       banners: bannersModel,
       categories: categoriesModel,
       products: productsModel,
-      shopFilter: {},
+      onSearch: false,
+      searchInputData: "",
+      searchListing: [],
+      shopFilter: {
+        category: "",
+        brand: "",
+        color: "red",
+        price: 0,
+        rating: 0,
+      },
       details_page: "",
       cart: {
         count: 0,
@@ -100,6 +109,15 @@ const constantSlice = createSlice({
     },
     isLogedinState(state, action) {
       state.data.isLogedin = action.payload;
+    },
+    searchInputData(state, action) {
+      state.data.searchInputData = action.payload;
+    },
+    setOnSearch(state, action) {
+      state.data.onSearch = action.payload;
+    },
+    updateSearchListing(state, action) {
+      state.data.searchListing = action.payload;
     },
   },
 });

@@ -5,9 +5,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import LogoNavComponent from "./LogoNavComponent";
 import { Link } from "react-router-dom";
+import { constantActions } from "../store/constantSlice";
 
 function DropDownComponent({ subcategories }) {
-
+  const dispatch = useDispatch();
+  function dropdownLink(item) {
+    dispatch(
+      constantActions.updateShopFilter({
+        category: item.category,
+        brand: item.brand,
+        //color: item.color,
+        //price: 0,
+        //rating: 0,
+      })
+    );
+  }
 
   return (
     <>
@@ -19,10 +31,15 @@ function DropDownComponent({ subcategories }) {
           return (
             <>
               <span key={item._id}>
-                <a href={"/shop?category="+item.name}>{item.name}</a>
-{/*                 <Link to="/shop" className="a">
+                {/* <span onClick={()=>dropdownLink(item)} className="a">{item.name}</span> */}
+                {/* <a className="a" href={"/shop?category="+item.name}>{item.name}</a> */}
+                <Link
+                  to="/shop"
+                  onClick={() => dropdownLink(item)}
+                  className="a"
+                >
                   {item.name}
-                </Link> */}
+                </Link>
               </span>
             </>
           );

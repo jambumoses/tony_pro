@@ -118,6 +118,13 @@ function WholeShopItem({ data }) {
 export default function WholeShopListing() {
   const dispatch = useDispatch();
   const wholeProducts = useSelector((state) => state.constant.data.products);
+
+  const onSearch = useSelector((state) => state.constant.data.onSearch);
+  const SearchListing = useSelector(
+    (state) => state.constant.data.searchListing
+  );
+  const [SearchProducts, setSearchProducts] = useState([...SearchListing]);
+
   const [MoreProductsLimit, setMoreProductsLimit] = useState(30);
   const shopCategories = useSelector((state) => state.constant.data.shopFilter);
 
@@ -174,12 +181,21 @@ export default function WholeShopListing() {
 
       <section className="wholeShopListing-section">
         <main>
-          {shuffle(shuffleWholeProducts)
-            .slice(0, MoreProductsLimit)
-            .map(function (item) {
-              return <WholeShopItem key={item._id} data={item} />;
-              /* end of filter */
-            })}
+          {!onSearch &&
+            shuffle(shuffleWholeProducts)
+              .slice(0, MoreProductsLimit)
+              .map(function (item) {
+                return <WholeShopItem key={item._id} data={item} />;
+                /* end of filter */
+              })}
+
+          {onSearch &&
+            shuffle(SearchProducts)
+              .slice(0, MoreProductsLimit)
+              .map(function (item) {
+                return <WholeShopItem key={item._id} data={item} />;
+                /* end of filter */
+              })}
         </main>
 
         <ShopAside />
