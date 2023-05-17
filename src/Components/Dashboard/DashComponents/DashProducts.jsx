@@ -5,7 +5,18 @@ export default function DashProducts() {
     <>
       <div className="DashHeader">
         <h2>products</h2>
-        <div>
+        <div style={{display:"flex"}}>
+          <span style={{
+            display:"flex",
+            flexDirection:"column",
+            justifyContent:"center",
+            alignItems:"center",
+            backgroundColor:"lightblue",
+            height:"30px",
+            width:"30px",
+            marginRight:"10px",
+            borderRadius:"50%"
+          }}>A</span>
           <input
             style={{
               padding: "1px 10px",
