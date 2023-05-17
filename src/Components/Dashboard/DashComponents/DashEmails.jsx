@@ -1,6 +1,23 @@
 import React from "react";
+import { useSelector } from "react-redux";
+
+function DashEmail({data}) {
+  return (
+    <div className="dashContentItem-list">
+      <span className="dashContentItem-list-title">{data.email}</span>
+      <span className="dashContentItem-list-buttons">
+        <button>
+          <i className="fa fa-save"></i>
+        </button>
+      </span>
+    </div>
+  );
+}
 
 export default function DashEmails() {
+  const dashEmailList = useSelector(
+    (state) => state.constant.data.dashboardData.emailList
+  );
   return (
     <>
       <div className="DashHeader">
@@ -10,89 +27,11 @@ export default function DashEmails() {
         </div>
       </div>
       <section className="DashContentContainer">
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jumbogift32@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jambcareer@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jjambgimo@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jumbogift32@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jambcareer@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jjambgimo@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jumbogift32@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jambcareer@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jjambgimo@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jumbogift32@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jambcareer@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
-
-        <div className="dashContentItem-list">
-          <span className="dashContentItem-list-title">jjambgimo@gmail.com</span>
-          <span className="dashContentItem-list-buttons">
-            <button><i className="fa fa-save"></i></button>
-          </span>
-        </div>
+        {
+          dashEmailList.map(function(item){
+            return <DashEmail key={item._id} data={item}/>
+          })
+        }
       </section>
     </>
   );

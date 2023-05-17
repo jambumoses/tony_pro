@@ -3,6 +3,8 @@ import productsModel from "../Assets/model/products.json";
 import bannersModel from "../Assets/model/banners.json";
 import categoriesModel from "../Assets/model/categories.json";
 import OfferMessagesModel from "../Assets/model/OfferMessages.json";
+import emailList from "../Assets/model/emailList.json";
+
 
 const constantSlice = createSlice({
   name: "constant",
@@ -15,14 +17,14 @@ const constantSlice = createSlice({
       login: true, // showing login or register page
       isLogedin: true, // dashboard
       dashboardData: { // dashboard data
-        products: "",
+        products: productsModel,
         orders: "",
         adverts: "",
         banners: "",
         categories: "",
         trends: "",
         offers: "",
-        emailList: "",
+        emailList: emailList,
         FlashMesages: "",
         settings: "",
       },
