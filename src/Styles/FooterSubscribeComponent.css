@@ -6,7 +6,8 @@
 }
 
 .subscribe-section h3{
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 40px;
     padding: 20px 20%;
     text-align: center;
     text-transform: capitalize;
