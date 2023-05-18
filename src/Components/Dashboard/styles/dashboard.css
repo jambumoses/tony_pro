@@ -4,3 +4,42 @@
 @import url("./products.css");
 @import url("./offers.css");
 @import url("./flashMessages.css");
+
+.dash-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.dash-cont div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dash-cont div h1 {
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: poppins, sans-serif;
+  text-transform: capitalize;
+  padding-right: 10px;
+}
+
+.dash-cont div sub {
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+}
+
+.dash-note {
+  padding-top: 20px;
+  width: 60%;
+  font-size: 13px;
+  text-align: center;
+}

@@ -23,7 +23,7 @@ export default function DashboardNav() {
 
   return (
     <aside className="dashboard-nav-section">
-      <h2>Dashboard</h2>
+      <h2 onClick={()=>updateDashPage("dashboard")} style={{cursor:"pointer"}}>Dashboard</h2>
       <div className="dashboard-nav-container">
         <span className="dashboard-nav-item-cont">
           <i className="fa fa-hand-holding-dollar"></i>
