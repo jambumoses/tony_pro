@@ -33,7 +33,8 @@ export default function DashFlashMessages() {
                 <span className="message" key={item._id}>
                   <span className="note">{item.message}</span>
                   <span className="btn">
-                    <i className="fa fa-save"></i>
+                    <i className="fa fa-save" title="edit" style={{color:"lightblue"}}></i>
+                    <i className="fa fa-save" title="delete"></i>
                   </span>
                 </span>
               );

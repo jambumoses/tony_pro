@@ -58,8 +58,8 @@ function WholeShopItem({ data }) {
               </span>
             </span>
           )}
-          <img  alt="" />
-        </span>src={require(`../Assets/products/${data.assets.url}`)}
+          <img src={require(`../Assets/products/${data.assets.url}`)} alt="" />
+        </span>
         <span className="wholeShop-product-title">{data.title}</span>
         <span className="wholeShop-product-details">
           {data.description.slice(0, 25)}
