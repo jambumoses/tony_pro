@@ -5,6 +5,9 @@ import categoriesModel from "../Assets/model/categories.json";
 import OfferMessagesModel from "../Assets/model/OfferMessages.json";
 import emailList from "../Assets/model/emailList.json";
 import offersModel from "../Assets/model/offers.json";
+import ordersModel from "../Assets/model/orders.json";
+import AdsModel from "../Assets/model/ads.json";
+
 
 
 
@@ -20,8 +23,8 @@ const constantSlice = createSlice({
       isLogedin: true, // dashboard
       dashboardData: { // dashboard data
         products: productsModel,
-        orders: "",
-        adverts: "",
+        orders: ordersModel,
+        adverts: AdsModel,
         banners: bannersModel,
         categories: categoriesModel,
         trends: "",

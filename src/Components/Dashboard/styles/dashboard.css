@@ -5,6 +5,7 @@
 @import url("./offers.css");
 @import url("./flashMessages.css");
 @import url("./ads.css");
+@import url("./orders.css");
 
 .dash-cont {
   display: flex;

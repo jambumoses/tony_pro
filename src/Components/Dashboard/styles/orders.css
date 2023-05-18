@@ -1,0 +1,23 @@
+.orders-table{
+    width: 98%;
+    background-color: white;
+}
+
+.orders-table .orders-table-header td{
+    background-color: lightgray;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+.orders-table tr td:hover{
+    background-color: rgba(211, 211, 211, 0.336);
+    cursor: pointer;
+}
+
+.orders-table tr td{
+    padding: 10px;
+    background-color: white;
+}

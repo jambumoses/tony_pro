@@ -1,0 +1,1201 @@
+[
+  {
+    "_id": "1",
+    "title": "Acer Aspire R3",
+    "category": "computer",
+    "color": "black",
+    "brand": "lenovo",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "2",
+    "title": "Acer Aspire R3",
+    "category": "printers",
+    "color": "red",
+    "brand": "hp",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "3",
+    "title": "Acer Aspire R3",
+    "category": "computer",
+    "color": "pink",
+    "brand": "dell",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "4",
+    "title": "Acer Aspire R3",
+    "category": "tablets",
+    "color": "grey",
+    "brand": "tostheba",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "leon-seibert-IjEsNibC4pc-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "5",
+    "title": "Acer Aspire R3",
+    "category": "electronics",
+    "color": "skyblue",
+    "brand": "sumsung",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "6",
+    "title": "Acer Aspire R3",
+    "category": "mac books",
+    "color": "silver",
+    "brand": "hp",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "7",
+    "title": "Acer Aspire R3",
+    "category": "hp",
+    "color": "black",
+    "brand": "lenovo",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "8",
+    "title": "Acer Aspire R3",
+    "category": "lenovo",
+    "color": "purple",
+    "brand": "alienware",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "leon-seibert-IjEsNibC4pc-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "9",
+    "title": "Acer Aspire R3",
+    "category": "alien ware",
+    "color": "black",
+    "brand": "lenovo",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "10",
+    "title": "Acer Aspire R3",
+    "category": "repairs",
+    "color": "black",
+    "brand": "alienware",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 5,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "11",
+    "title": "Acer Aspire R3",
+    "category": "gaming pc",
+    "color": "black",
+    "brand": "hp",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 4,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "_id": "12",
+    "title": "Acer Aspire R3",
+    "category": "microsoft pc",
+    "color": "black",
+    "brand": "sumsung",
+    "description": "Premuim Quad Core 4th Gen14 GB/500 GB HDD/Win00 A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A",
+    "assets": {
+      "url": "leon-seibert-IjEsNibC4pc-unsplash-removebg-preview.png",
+      "images": [
+        {
+          "_id": 1,
+          "url": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 2,
+          "url": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png"
+        },
+        {
+          "_id": 3,
+          "url": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png"
+        }
+      ]
+    },
+    "quantity": 1,
+    "rating": 3,
+    "price": 2050,
+    "subprice": 2050,
+    "details": [
+      {
+        "_id": 1,
+        "title": "SPECIFICATIONS",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text"
+        },
+        "subDetails": [
+          {
+            "_id": 1,
+            "type": "small",
+            "subtitle": "LAPTOP SERVICE",
+            "content": {
+              "type": "normal",
+              "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 2,
+        "title": "MEASUREMENT",
+        "subtitle": "",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction"
+        },
+        "subDetails": [
+          {
+            "_id": 2,
+            "type": "heading",
+            "subtitle": "HARDWARE REQUIREMENTS",
+            "content": {
+              "type": "table",
+              "data": {
+                "operating system": "kali linux iso",
+                "memory": "8 - 10 RAM",
+                "hardware": "mac book pro",
+                "storage siaze": "20 GB",
+                "extra plugins": "directX 12"
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "_id": 3,
+        "title": "SPECIFICATIONS",
+        "subtitle": "LAPTOP SERVICE",
+        "content": {
+          "type": "normal",
+          "data": "A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument, debate, and interaction regarding the content and formatting. A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while also allowing for editor argument,"
+        },
+        "subDetails": [
+          {
+            "_id": 3,
+            "type": "normal",
+            "subtitle": "",
+            "content": {
+              "type": "normal",
+              "data": ""
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

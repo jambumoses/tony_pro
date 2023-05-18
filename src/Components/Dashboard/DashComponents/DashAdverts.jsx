@@ -1,10 +1,16 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 export default function DashAdverts() {
+  const AdsData = useSelector(
+    (state) => state.constant.data.dashboardData.adverts
+  );
   return (
     <>
       <div className="DashHeader">
-        <h2>advertisements (<i className="fa fa-rectangle-ad"></i>)</h2>
+        <h2>
+          advertisements (<i className="fa fa-rectangle-ad"></i>)
+        </h2>
         <div style={{ display: "flex" }}>
           <input
             style={{
@@ -23,74 +29,16 @@ export default function DashAdverts() {
       <section className="DashContentContainer">
         <div className="ads-container">
           <div className="ads-item">
-            
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_STICKYBANNER_1168x56.gif")}
-                alt=""
-              />
-            </span>
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_xoxoxoxooxox.gif")}
-                alt=""
-              />
-            </span>
-
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_xoxoxoxooxox.gif")}
-                alt=""
-              />
-            </span>
-
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_xoxoxoxooxox.gif")}
-                alt=""
-              />
-            </span>
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_STICKYBANNER_1168x56.gif")}
-                alt=""
-              />
-            </span>
-
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_STICKYBANNER_1168x56.gif")}
-                alt=""
-              />
-            </span>
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_xoxoxoxooxox.gif")}
-                alt=""
-              />
-            </span>
-
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_xoxoxoxooxox.gif")}
-                alt=""
-              />
-            </span>
-
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_xoxoxoxooxox.gif")}
-                alt=""
-              />
-            </span>
-            <span>
-              <img
-                src={require("../../../Assets/ads/UG_W4_JUMIA-LOVES-YOU_STICKYBANNER_1168x56.gif")}
-                alt=""
-              />
-            </span>
-
-
+            {AdsData.map(function (item) {
+              return (
+                <span key={item._id}>
+                  <img
+                    src={require("../../../Assets/ads/"+item.poster)}
+                    alt=""
+                  />
+                </span>
+              );
+            })}
           </div>
         </div>
       </section>
