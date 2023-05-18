@@ -1,0 +1,42 @@
+.Dash-banners-section{
+    margin-top: 20px;
+    background-color: transparent;
+    /* border-radius: 20px; */
+}
+
+.Dash-banners-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    height: 30px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: transparent;
+    /* border-bottom: 2px solid silver; */
+}
+
+.Dash-banners-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Dash-banners-container-item{
+    width: 30%;
+    height: 200px;
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Dash-banners-container-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
