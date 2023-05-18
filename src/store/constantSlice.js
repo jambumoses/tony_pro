@@ -20,7 +20,7 @@ const constantSlice = createSlice({
     currentPage: "",
     data: {
       login: true, // showing login or register page
-      isLogedin: true, // dashboard
+      isLogedin: false, // dashboard
       dashboardData: { // dashboard data
         products: productsModel,
         orders: ordersModel,

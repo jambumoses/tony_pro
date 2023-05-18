@@ -7,7 +7,7 @@ export default function DashboardNav() {
   const companyName = useSelector((state) => state.constant.companyTitle);
   const currentPage = useSelector((state) => state.constant.currentPage);
 
-  const [currentDashPage, setCurrentDashPage] = useState("dash-adverts");
+  const [currentDashPage, setCurrentDashPage] = useState("dashboard");
   const [activeColor, setActiveColor] = useState("skyblue");
 
   dispatch(constantActions.updatePageTitles(companyName + " . " + "Dashboard"));

@@ -8,7 +8,7 @@ export default function DashFlashMessages() {
   return (
     <>
       <div className="DashHeader">
-        <h2>flash messages</h2>
+        <h2>flash messages 👈</h2>
         <div style={{ display: "flex" }}>
           <input
             style={{
