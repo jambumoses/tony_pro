@@ -21,7 +21,7 @@ const constantSlice = createSlice({
         orders: "",
         adverts: "",
         banners: bannersModel,
-        categories: "",
+        categories: categoriesModel,
         trends: "",
         offers: "",
         emailList: emailList,

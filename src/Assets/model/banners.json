@@ -7,6 +7,13 @@
     { "_id": 5, "url": "Best-All-in-One-Color-Laser-Printers-for-Small-Businesses.webp" },
     { "_id": 3, "url": "1df13-Laser-Printers-pantum.jpg" }
   ],
+    "products": [
+    { "_id": 4, "url": "Work Smarter Consolidate Your Printer - Twitter Post.webp" },
+    { "_id": 5, "url": "Best-All-in-One-Color-Laser-Printers-for-Small-Businesses.webp" }
+  ],
+    "wallpapers": [
+    { "_id": 1, "url": "View-All-Devices_1040x585.jpg" }
+  ],
   "note_offers":[
     {
       "_id": "1",

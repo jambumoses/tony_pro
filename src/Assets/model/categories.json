@@ -2,7 +2,8 @@
   {
     "_id": 1,
     "category": "printers",
-    "image": "",
+    "image": "ankush-minda-B5x5AyOV3XA-unsplash-removebg-preview.png",
+    "description": "It only takes a few seconds to add WordPress to your site with our 1-click WordPress installer, through your Control Panel. Get access to one of the world’s most popular content management systems and start creating your WordPress website right away.",
     "subcategories": [
       {
         "_id": 1,
@@ -84,7 +85,8 @@
   {
     "_id": 2,
     "category": "phones & tablets",
-    "image": "",
+    "image": "giorgio-trovato-8krX0HkXw8c-unsplash-removebg-preview.png",
+    "description": "It only takes a few seconds to add WordPress to your site with our 1-click WordPress installer, through your Control Panel. Get access to one of the world’s most popular content management systems and start creating your WordPress website right away.",
     "subcategories": [
       {
         "_id": 1,
@@ -191,7 +193,8 @@
   {
     "_id": 3,
     "category": "other electronics",
-    "image": "",
+    "image": "jose-gil-Uar8mh_f0kA-unsplash-removebg-preview.png",
+    "description": "It only takes a few seconds to add WordPress to your site with our 1-click WordPress installer, through your Control Panel. Get access to one of the world’s most popular content management systems and start creating your WordPress website right away.",
     "subcategories": [
       {
         "_id": 1,
@@ -298,7 +301,8 @@
   {
     "_id": 4,
     "category": "headsets",
-    "image": "",
+    "image": "leon-seibert-IjEsNibC4pc-unsplash-removebg-preview.png",
+    "description": "It only takes a few seconds to add WordPress to your site with our 1-click WordPress installer, through your Control Panel. Get access to one of the world’s most popular content management systems and start creating your WordPress website right away.",
     "subcategories": [
       {
         "_id": 1,
@@ -405,7 +409,8 @@
   {
     "_id": 5,
     "category": "game consoles",
-    "image": "",
+    "image": "paolo-giubilato-ZwKCWVFdrcs-unsplash-removebg-preview.png",
+    "description": "It only takes a few seconds to add WordPress to your site with our 1-click WordPress installer, through your Control Panel. Get access to one of the world’s most popular content management systems and start creating your WordPress website right away.",
     "subcategories": [
       {
         "_id": 1,
@@ -512,7 +517,8 @@
   {
     "_id": 6,
     "category": "flat screens",
-    "image": "",
+    "image": "pascal-m-4PchFKrUw84-unsplash-removebg-preview.png",
+    "description": "It only takes a few seconds to add WordPress to your site with our 1-click WordPress installer, through your Control Panel. Get access to one of the world’s most popular content management systems and start creating your WordPress website right away.",
     "subcategories": [
       {
         "_id": 1,
@@ -619,7 +625,8 @@
   {
     "_id": 7,
     "category": "computer chargers",
-    "image": "",
+    "image": "quino-al-xhGMQ_nYWqU-unsplash-removebg-preview.png",
+    "description": "It only takes a few seconds to add WordPress to your site with our 1-click WordPress installer, through your Control Panel. Get access to one of the world’s most popular content management systems and start creating your WordPress website right away.",
     "subcategories": [
       {
         "_id": 1,

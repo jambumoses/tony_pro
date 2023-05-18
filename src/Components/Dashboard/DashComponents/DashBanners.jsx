@@ -32,7 +32,10 @@ export default function DashBanners() {
             {bannersData.home.map(function (item) {
               return (
                 <div key={item._id} className="Dash-banners-container-item">
-                  <img src={require(`../../../Assets/banners/${item.url}`)} alt="" />
+                  <img
+                    src={require(`../../../Assets/banners/${item.url}`)}
+                    alt=""
+                  />
                 </div>
               );
             })}
@@ -43,18 +46,16 @@ export default function DashBanners() {
           <div className="Dash-banners-header">product banner</div>
           {/* items */}
           <div className="Dash-banners-container">
-            <div className="Dash-banners-container-item">
-              <img src="" alt="" />
-            </div>
-            <div className="Dash-banners-container-item">
-              <img src="" alt="" />
-            </div>
-            <div className="Dash-banners-container-item">
-              <img src="" alt="" />
-            </div>
-            <div className="Dash-banners-container-item">
-              <img src="" alt="" />
-            </div>
+            {bannersData.products.map(function (item) {
+              return (
+                <div key={item._id} className="Dash-banners-container-item">
+                  <img
+                    src={require(`../../../Assets/banners/${item.url}`)}
+                    alt=""
+                  />
+                </div>
+              );
+            })}
           </div>
         </section>
 
@@ -62,18 +63,16 @@ export default function DashBanners() {
           <div className="Dash-banners-header">wallpaper banner</div>
           {/* items */}
           <div className="Dash-banners-container">
-            <div className="Dash-banners-container-item">
-              <img src="" alt="" />
-            </div>
-            <div className="Dash-banners-container-item">
-              <img src="" alt="" />
-            </div>
-            <div className="Dash-banners-container-item">
-              <img src="" alt="" />
-            </div>
-            <div className="Dash-banners-container-item">
-              <img src="" alt="" />
-            </div>
+            {bannersData.wallpapers.map(function (item) {
+              return (
+                <div key={item._id} className="Dash-banners-container-item">
+                  <img
+                    src={require(`../../../Assets/banners/${item.url}`)}
+                    alt=""
+                  />
+                </div>
+              );
+            })}
           </div>
         </section>
       </section>
