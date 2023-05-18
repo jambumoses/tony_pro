@@ -27,7 +27,7 @@ const constantSlice = createSlice({
         trends: "",
         offers: offersModel,
         emailList: emailList,
-        FlashMesages: "",
+        FlashMesages: offersModel.navMessages,
         settings: "",
       },
       OfferMessages: OfferMessagesModel,

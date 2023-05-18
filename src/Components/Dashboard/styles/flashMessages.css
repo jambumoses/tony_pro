@@ -1,0 +1,36 @@
+.message-cont{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.message{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-family: poppins , sans-serif;
+    margin-bottom: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+
+.message .note{
+    color: green;
+}
+
+.message .note:hover{
+    color: grey;
+}
+
+.message .btn{
+    margin-right: 10px;
+}
+
+.message .btn i{
+    color: red;
+}

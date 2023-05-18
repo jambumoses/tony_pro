@@ -1,7 +1,13 @@
 {
   "navMessages": [
-    "Get 10% Off The Promo Off Ts Sections",
-    "this system is still under development"
+    {
+      "_id": 1,
+      "message": "Get 10% Off The Promo Off Ts Sections"
+    },
+    {
+      "_id": 2,
+      "message": "this system is still under development"
+    }
   ],
   "note_offers": [
     {
