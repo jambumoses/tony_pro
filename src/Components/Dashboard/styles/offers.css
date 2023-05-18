@@ -1,0 +1,106 @@
+.Dash-offer-section{
+    margin-top: 20px;
+}
+
+.Dash-offer-section h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.Dash-offer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Dash-offer-item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 270px;
+    height: 120px;
+    margin: 20px;
+    padding: 10px 50px;
+    overflow: hidden;
+}
+
+.Dash-offer-item span{
+    padding: 2px 0px;
+}
+
+.Dash-offer-item-icon i{
+    font-size: 18px;
+    color: black;
+}
+
+.Dash-offer-item-title{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+}
+
+.Dash-offer-item-description{
+    font-size: 12px;
+    font-weight: initial;
+    font-family: poppins, sans-serif;
+}
+
+
+
+
+/* product offer */
+
+.Dash-offer-item-product{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 270px;
+    margin: 20px;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+.Dash-offer-item-product span{
+    padding-bottom: 5px;
+}
+
+.Dash-offer-item-product-discount{
+    position: absolute;
+    font: 15px;
+    color: orange;
+}
+
+.Dash-offer-item-product-discount small{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.Dash-offer-item-product-image{
+    width: 100%;
+    height: 150px;
+}
+
+.Dash-offer-item-product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Dash-offer-item-product-title{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;   
+}
+
+.Dash-offer-item-product-description{
+    font-size: 12px;
+    font-weight: initial;
+    font-family: poppins, sans-serif;   
+}

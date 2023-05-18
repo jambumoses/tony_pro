@@ -4,6 +4,8 @@ import bannersModel from "../Assets/model/banners.json";
 import categoriesModel from "../Assets/model/categories.json";
 import OfferMessagesModel from "../Assets/model/OfferMessages.json";
 import emailList from "../Assets/model/emailList.json";
+import offersModel from "../Assets/model/offers.json";
+
 
 
 const constantSlice = createSlice({
@@ -23,7 +25,7 @@ const constantSlice = createSlice({
         banners: bannersModel,
         categories: categoriesModel,
         trends: "",
-        offers: "",
+        offers: offersModel,
         emailList: emailList,
         FlashMesages: "",
         settings: "",
